@@ -1,0 +1,394 @@
+<Window x:Class="AiLaTrieuPhu.Views.HighScoreWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Bảng Vàng Kỷ Lục &amp; Thống Kê Triệu Phú" Height="680" Width="940"
+        WindowStartupLocation="CenterOwner" ResizeMode="NoResize"
+        Background="Transparent"
+        WindowStyle="None" AllowsTransparency="True"
+        MouseLeftButtonDown="Window_MouseLeftButtonDown">
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/AiLaTrieuPhu;component/Resources/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <Border BorderBrush="{StaticResource GoldBrush}" BorderThickness="2" CornerRadius="18" Background="{StaticResource StudioBackgroundBrush}">
+        <Border.Effect>
+            <DropShadowEffect BlurRadius="30" Color="#FFB703" Opacity="0.6" ShadowDepth="0" />
+        </Border.Effect>
+        <Grid Margin="22">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/> <!-- Title Header -->
+                <RowDefinition Height="Auto"/> <!-- 4 Summary Stats Cards -->
+                <RowDefinition Height="Auto"/> <!-- Mode Selector & Filter Bar -->
+                <RowDefinition Height="*"/>    <!-- Data Grids -->
+                <RowDefinition Height="Auto"/> <!-- Footer Actions -->
+            </Grid.RowDefinitions>
+
+            <!-- 1. Header -->
+            <Grid Grid.Row="0" Margin="0,0,0,12">
+                <StackPanel HorizontalAlignment="Center">
+                    <TextBlock Text="🏆 BẢNG VÀNG KỶ LỤC &amp; THỐNG KÊ TRIỆU PHÚ"
+                               FontSize="22" FontWeight="Black" Foreground="{StaticResource GoldBrush}"
+                               HorizontalAlignment="Center">
+                        <TextBlock.Effect>
+                            <DropShadowEffect BlurRadius="10" Color="#FFB703" Opacity="0.7" ShadowDepth="0"/>
+                        </TextBlock.Effect>
+                    </TextBlock>
+                    <TextBlock Text="Vinh danh những kỷ lục gia trả lời đúng nhiều nhất và vượt qua thử thách 15 câu hỏi"
+                               FontSize="12" Foreground="#94A3B8" HorizontalAlignment="Center" Margin="0,3,0,0"/>
+                </StackPanel>
+
+                <!-- Close 'X' Button Top Right -->
+                <Button Content="✕" Click="BtnClose_Click" HorizontalAlignment="Right" VerticalAlignment="Top"
+                        Width="32" Height="32" Style="{StaticResource ModernButtonStyle}"
+                        Background="#1E293B" BorderBrush="#475569" Foreground="#94A3B8" Padding="0"/>
+            </Grid>
+
+            <!-- 2. Summary Stats Bar: 4 Cards -->
+            <Grid Grid.Row="1" Margin="0,0,0,12">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Card 1: Top 15 Questions Cleared -->
+                <Border Grid.Column="0" Background="#0F1D36" CornerRadius="10" BorderBrush="{StaticResource GoldBrush}" BorderThickness="1.5" Padding="10,8" Margin="0,0,4,0">
+                    <StackPanel>
+                        <TextBlock Text="👑 VƯỢT QUA 15 CÂU" FontSize="11" FontWeight="Bold" Foreground="{StaticResource GoldBrush}"/>
+                        <TextBlock x:Name="txtTop15Player" Text="Âu Nguyễn Quang Tùng" FontSize="13" FontWeight="Bold" Foreground="White" TextTrimming="CharacterEllipsis" Margin="0,2,0,0"/>
+                        <TextBlock x:Name="txtTop15Count" Text="2 lần vượt qua 15/15" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource GoldLightBrush}"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- Card 2: Most Correct Answers -->
+                <Border Grid.Column="1" Background="#0F1D36" CornerRadius="10" BorderBrush="{StaticResource CyanBrush}" BorderThickness="1.5" Padding="10,8" Margin="3,0">
+                    <StackPanel>
+                        <TextBlock Text="🎯 CÂU ĐÚNG NHIỀU NHẤT" FontSize="11" FontWeight="Bold" Foreground="{StaticResource CyanBrush}"/>
+                        <TextBlock x:Name="txtTopCorrectPlayer" Text="Âu Nguyễn Quang Tùng" FontSize="13" FontWeight="Bold" Foreground="White" TextTrimming="CharacterEllipsis" Margin="0,2,0,0"/>
+                        <TextBlock x:Name="txtTopCorrectCount" Text="15 câu (Tổng 30 câu)" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource CyanBrush}"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- Card 3: Top Prize -->
+                <Border Grid.Column="2" Background="#0F1D36" CornerRadius="10" BorderBrush="{StaticResource GreenBrush}" BorderThickness="1.5" Padding="10,8" Margin="3,0">
+                    <StackPanel>
+                        <TextBlock Text="💰 TIỀN THƯỞNG KỶ LỤC" FontSize="11" FontWeight="Bold" Foreground="{StaticResource GreenBrush}"/>
+                        <TextBlock x:Name="txtTopPrizePlayer" Text="Âu Nguyễn Quang Tùng" FontSize="13" FontWeight="Bold" Foreground="White" TextTrimming="CharacterEllipsis" Margin="0,2,0,0"/>
+                        <TextBlock x:Name="txtTopPrize" Text="150.000.000 VNĐ" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource GreenBrush}"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- Card 4: 15-Question Clear Overview -->
+                <Border Grid.Column="3" Background="#0F1D36" CornerRadius="10" BorderBrush="#334155" BorderThickness="1" Padding="10,8" Margin="4,0,0,0">
+                    <StackPanel>
+                        <TextBlock Text="🏆 TỔNG LƯỢT PHÁ ĐẢO" FontSize="11" FontWeight="Bold" Foreground="#38BDF8"/>
+                        <TextBlock x:Name="txtTotal15Passed" Text="3 lần thành công" FontSize="13" FontWeight="Bold" Foreground="White" Margin="0,2,0,0"/>
+                        <TextBlock x:Name="txtTotalPlayers" Text="5 người đã ghi danh" FontSize="11" Foreground="#94A3B8"/>
+                    </StackPanel>
+                </Border>
+            </Grid>
+
+            <!-- 3. Navigation Tabs & Search/Filter Bar -->
+            <Border Grid.Row="2" Background="#0C1527" CornerRadius="10" BorderBrush="#1E293B" BorderThickness="1" Padding="8,6" Margin="0,0,0,10">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/> <!-- View Mode Switcher -->
+                        <ColumnDefinition Width="*"/>    <!-- Search Box -->
+                        <ColumnDefinition Width="220"/>  <!-- Sort ComboBox -->
+                    </Grid.ColumnDefinitions>
+
+                    <!-- View Mode Tabs -->
+                    <StackPanel Grid.Column="0" Orientation="Horizontal" Margin="0,0,10,0">
+                        <Button x:Name="btnTabPlayerStats" Content="🌟 Bảng Thống Kê Kỷ Lục Gia"
+                                Click="BtnTabPlayerStats_Click"
+                                Background="#1E3A8A" Foreground="White" FontWeight="Bold" FontSize="12"
+                                BorderBrush="{StaticResource CyanBrush}" BorderThickness="1"
+                                Padding="12,6" Margin="0,0,6,0">
+                            <Button.Resources>
+                                <Style TargetType="Border">
+                                    <Setter Property="CornerRadius" Value="6"/>
+                                </Style>
+                            </Button.Resources>
+                        </Button>
+                        <Button x:Name="btnTabGameScores" Content="📋 Lịch Sử Các Lượt Chơi"
+                                Click="BtnTabGameScores_Click"
+                                Background="#131F35" Foreground="#94A3B8" FontWeight="SemiBold" FontSize="12"
+                                BorderBrush="#334155" BorderThickness="1"
+                                Padding="12,6">
+                            <Button.Resources>
+                                <Style TargetType="Border">
+                                    <Setter Property="CornerRadius" Value="6"/>
+                                </Style>
+                            </Button.Resources>
+                        </Button>
+                    </StackPanel>
+
+                    <!-- Search by name -->
+                    <Grid Grid.Column="1" Margin="0,0,10,0">
+                        <TextBox x:Name="txtSearch" TextChanged="TxtSearch_TextChanged"
+                                 Padding="10,5" Background="#131F35" Foreground="White" BorderBrush="#334155"
+                                 FontSize="12" VerticalContentAlignment="Center"/>
+                        <TextBlock Text="🔍 Tìm theo tên người chơi..."
+                                   IsHitTestVisible="False" Foreground="#64748B" FontSize="12"
+                                   VerticalAlignment="Center" Margin="10,0,0,0">
+                            <TextBlock.Style>
+                                <Style TargetType="TextBlock">
+                                    <Setter Property="Visibility" Value="Collapsed"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding Text, ElementName=txtSearch}" Value="">
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBlock.Style>
+                        </TextBlock>
+                    </Grid>
+
+                    <!-- Sort / Filter ComboBox -->
+                    <ComboBox Grid.Column="2" x:Name="cbSort" SelectionChanged="CbSort_SelectionChanged"
+                              Background="#131F35" Foreground="White" BorderBrush="#334155" FontSize="12" Padding="8,5">
+                        <ComboBoxItem Content="🏆 Xếp theo: Số lần vượt 15 câu" IsSelected="True"/>
+                        <ComboBoxItem Content="🎯 Xếp theo: Kỷ lục câu đúng nhất"/>
+                        <ComboBoxItem Content="📈 Xếp theo: Tổng số câu đúng"/>
+                        <ComboBoxItem Content="💰 Xếp theo: Tiền thưởng cao nhất"/>
+                    </ComboBox>
+                </Grid>
+            </Border>
+
+            <!-- 4. DataGrids Container -->
+            <Border Grid.Row="3" Background="#090F1C" CornerRadius="10" BorderBrush="#1E293B" BorderThickness="1" Padding="2">
+                <Grid>
+                    <!-- Grid 1: Bảng Thống Kê Người Chơi (Thử thách 15 câu & Câu đúng nhiều nhất) -->
+                    <DataGrid x:Name="dgPlayerStats" AutoGenerateColumns="False" IsReadOnly="True"
+                              Background="Transparent" BorderThickness="0"
+                              HeadersVisibility="Column" GridLinesVisibility="Horizontal"
+                              HorizontalGridLinesBrush="#162238"
+                              RowBackground="#0B1324" AlternatingRowBackground="#0E192E"
+                              Foreground="White" FontSize="13" CanUserSortColumns="False"
+                              RowHeight="36" Visibility="Visible">
+                        <DataGrid.ColumnHeaderStyle>
+                            <Style TargetType="DataGridColumnHeader">
+                                <Setter Property="Background" Value="#152238"/>
+                                <Setter Property="Foreground" Value="{StaticResource GoldBrush}"/>
+                                <Setter Property="FontWeight" Value="Bold"/>
+                                <Setter Property="Padding" Value="10,8"/>
+                                <Setter Property="BorderThickness" Value="0,0,0,1.5"/>
+                                <Setter Property="BorderBrush" Value="{StaticResource GoldBrush}"/>
+                            </Style>
+                        </DataGrid.ColumnHeaderStyle>
+                        <DataGrid.Columns>
+                            <!-- Rank -->
+                            <DataGridTextColumn Header="Thứ hạng" Binding="{Binding RankDisplay}" Width="105">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="TextBlock">
+                                        <Setter Property="FontWeight" Value="Bold"/>
+                                        <Setter Property="VerticalAlignment" Value="Center"/>
+                                        <Setter Property="Margin" Value="10,0"/>
+                                        <Setter Property="Foreground" Value="{StaticResource GoldBrush}"/>
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+
+                            <!-- Player Name -->
+                            <DataGridTextColumn Header="Họ tên người chơi" Binding="{Binding PlayerName}" Width="*">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="TextBlock">
+                                        <Setter Property="FontWeight" Value="Bold"/>
+                                        <Setter Property="VerticalAlignment" Value="Center"/>
+                                        <Setter Property="Margin" Value="6,0"/>
+                                        <Setter Property="Foreground" Value="White"/>
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+
+                            <!-- Times Passed 15 Questions -->
+                            <DataGridTextColumn Header="⭐ Vượt 15 câu" Binding="{Binding TimesPassedFormatted}" Width="135">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="TextBlock">
+                                        <Setter Property="FontWeight" Value="Black"/>
+                                        <Setter Property="VerticalAlignment" Value="Center"/>
+                                        <Setter Property="HorizontalAlignment" Value="Center"/>
+                                        <Setter Property="Foreground" Value="{StaticResource GoldBrush}"/>
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+
+                            <!-- Max Correct in 1 Game -->
+                            <DataGridTextColumn Header="🎯 Kỷ lục đúng" Binding="{Binding MaxCorrectFormatted}" Width="125">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="TextBlock">
+                                        <Setter Property="FontWeight" Value="Bold"/>
+                                        <Setter Property="VerticalAlignment" Value="Center"/>
+                                        <Setter Property="HorizontalAlignment" Value="Center"/>
+                                        <Setter Property="Foreground" Value="{StaticResource CyanBrush}"/>
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+
+                            <!-- Total Correct Answers -->
+                            <DataGridTextColumn Header="Tổng câu đúng" Binding="{Binding TotalCorrectAnswers}" Width="110">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="TextBlock">
+                                        <Setter Property="FontWeight" Value="SemiBold"/>
+                                        <Setter Property="VerticalAlignment" Value="Center"/>
+                                        <Setter Property="HorizontalAlignment" Value="Center"/>
+                                        <Setter Property="Foreground" Value="#E2E8F0"/>
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+
+                            <!-- Total Games -->
+                            <DataGridTextColumn Header="Số ván" Binding="{Binding TotalGamesPlayed}" Width="75">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="TextBlock">
+                                        <Setter Property="VerticalAlignment" Value="Center"/>
+                                        <Setter Property="HorizontalAlignment" Value="Center"/>
+                                        <Setter Property="Foreground" Value="#94A3B8"/>
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+
+                            <!-- Highest Prize -->
+                            <DataGridTextColumn Header="Tiền cao nhất" Binding="{Binding HighestPrizeFormatted}" Width="140">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="TextBlock">
+                                        <Setter Property="Foreground" Value="{StaticResource GreenBrush}"/>
+                                        <Setter Property="FontWeight" Value="Bold"/>
+                                        <Setter Property="VerticalAlignment" Value="Center"/>
+                                        <Setter Property="Margin" Value="6,0"/>
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+
+                            <!-- Achievement Badge -->
+                            <DataGridTextColumn Header="Danh hiệu" Binding="{Binding AchievementBadge}" Width="150">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="TextBlock">
+                                        <Setter Property="Foreground" Value="{StaticResource GoldLightBrush}"/>
+                                        <Setter Property="FontWeight" Value="SemiBold"/>
+                                        <Setter Property="VerticalAlignment" Value="Center"/>
+                                        <Setter Property="Margin" Value="6,0"/>
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+
+                    <!-- Grid 2: Bảng Lịch Sử Từng Lượt Chơi -->
+                    <DataGrid x:Name="dgGameScores" AutoGenerateColumns="False" IsReadOnly="True"
+                              Background="Transparent" BorderThickness="0"
+                              HeadersVisibility="Column" GridLinesVisibility="Horizontal"
+                              HorizontalGridLinesBrush="#162238"
+                              RowBackground="#0B1324" AlternatingRowBackground="#0E192E"
+                              Foreground="White" FontSize="13" CanUserSortColumns="False"
+                              RowHeight="36" Visibility="Collapsed">
+                        <DataGrid.ColumnHeaderStyle>
+                            <Style TargetType="DataGridColumnHeader">
+                                <Setter Property="Background" Value="#152238"/>
+                                <Setter Property="Foreground" Value="{StaticResource GoldBrush}"/>
+                                <Setter Property="FontWeight" Value="Bold"/>
+                                <Setter Property="Padding" Value="10,8"/>
+                                <Setter Property="BorderThickness" Value="0,0,0,1.5"/>
+                                <Setter Property="BorderBrush" Value="{StaticResource GoldBrush}"/>
+                            </Style>
+                        </DataGrid.ColumnHeaderStyle>
+                        <DataGrid.Columns>
+                            <!-- Rank -->
+                            <DataGridTextColumn Header="Thứ hạng" Binding="{Binding RankDisplay}" Width="110">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="TextBlock">
+                                        <Setter Property="FontWeight" Value="Bold"/>
+                                        <Setter Property="VerticalAlignment" Value="Center"/>
+                                        <Setter Property="Margin" Value="10,0"/>
+                                        <Setter Property="Foreground" Value="{StaticResource GoldBrush}"/>
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+
+                            <!-- Player Name -->
+                            <DataGridTextColumn Header="Họ tên người chơi" Binding="{Binding PlayerName}" Width="*">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="TextBlock">
+                                        <Setter Property="FontWeight" Value="SemiBold"/>
+                                        <Setter Property="VerticalAlignment" Value="Center"/>
+                                        <Setter Property="Margin" Value="6,0"/>
+                                        <Setter Property="Foreground" Value="White"/>
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+
+                            <!-- Prize Money -->
+                            <DataGridTextColumn Header="Tiền thưởng" Binding="{Binding PrizeFormatted}" Width="160">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="TextBlock">
+                                        <Setter Property="Foreground" Value="{StaticResource GreenBrush}"/>
+                                        <Setter Property="FontWeight" Value="Bold"/>
+                                        <Setter Property="VerticalAlignment" Value="Center"/>
+                                        <Setter Property="Margin" Value="6,0"/>
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+
+                            <!-- Questions Answered -->
+                            <DataGridTextColumn Header="Số câu đúng" Binding="{Binding QuestionsFormatted}" Width="110">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="TextBlock">
+                                        <Setter Property="Foreground" Value="{StaticResource CyanBrush}"/>
+                                        <Setter Property="FontWeight" Value="SemiBold"/>
+                                        <Setter Property="HorizontalAlignment" Value="Center"/>
+                                        <Setter Property="VerticalAlignment" Value="Center"/>
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+
+                            <!-- Achievement Badge -->
+                            <DataGridTextColumn Header="Danh hiệu" Binding="{Binding AchievementBadge}" Width="140">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="TextBlock">
+                                        <Setter Property="Foreground" Value="{StaticResource GoldLightBrush}"/>
+                                        <Setter Property="FontWeight" Value="SemiBold"/>
+                                        <Setter Property="VerticalAlignment" Value="Center"/>
+                                        <Setter Property="HorizontalAlignment" Value="Center"/>
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+
+                            <!-- Date Achieved -->
+                            <DataGridTextColumn Header="Thời gian" Binding="{Binding DateFormatted}" Width="130">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="TextBlock">
+                                        <Setter Property="Foreground" Value="#94A3B8"/>
+                                        <Setter Property="VerticalAlignment" Value="Center"/>
+                                        <Setter Property="Margin" Value="6,0"/>
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </Border>
+
+            <!-- 5. Footer Actions -->
+            <Grid Grid.Row="4" Margin="0,12,0,0">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                    <Button Content="🔄 Khôi phục mặc định" Click="BtnResetDefaults_Click"
+                            Style="{StaticResource ModernButtonStyle}" Background="#162032" BorderBrush="#334155"
+                            FontSize="12" Padding="12,7" Margin="0,0,8,0"/>
+                    <Button Content="🗑️ Xóa toàn bộ" Click="BtnClearScores_Click"
+                            Style="{StaticResource ModernButtonStyle}" Background="#331820" BorderBrush="{StaticResource RedBrush}" Foreground="{StaticResource RedBrush}"
+                            FontSize="12" Padding="12,7"/>
+                </StackPanel>
+
+                <Button Content="ĐÓNG" Click="BtnClose_Click"
+                        Style="{StaticResource PrimaryGoldButtonStyle}"
+                        HorizontalAlignment="Right" Width="140" Height="38" />
+            </Grid>
+        </Grid>
+    </Border>
+</Window>

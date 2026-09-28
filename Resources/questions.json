@@ -1,0 +1,1442 @@
+﻿[
+  {
+    "Id": 1,
+    "Level": 1,
+    "Category": "Địa lý",
+    "Content": "Thủ đô của nước Cộng hòa Xã hội Chủ nghĩa Việt Nam là thành phố nào?",
+    "Options": ["Hà Nội", "TP. Hồ Chí Minh", "Đà Nẵng", "Cần Thơ"],
+    "CorrectIndex": 0,
+    "Explanation": "Hà Nội là thủ đô của Việt Nam từ năm 1976 sau khi đất nước thống nhất."
+  },
+  {
+    "Id": 2,
+    "Level": 1,
+    "Category": "Động vật",
+    "Content": "Trong văn hóa dân gian Việt Nam, loài vật nào thường được gọi là 'ông Ba Mươi'?",
+    "Options": ["Báo đốm", "Hổ", "Sư tử", "Gấu ngựa"],
+    "CorrectIndex": 1,
+    "Explanation": "Hổ (cọp) thường được dân gian gọi kính cẩn là 'ông Ba Mươi'."
+  },
+  {
+    "Id": 3,
+    "Level": 1,
+    "Category": "Xã hội",
+    "Content": "Quốc kỳ Việt Nam có nền màu đỏ và ở giữa là hình gì?",
+    "Options": ["Mặt trời đỏ", "Ngôi sao vàng năm cánh", "Bông sen trắng", "Mặt trăng khuyết"],
+    "CorrectIndex": 1,
+    "Explanation": "Quốc kỳ Việt Nam có nền đỏ tượng trưng cho nhiệt huyết cách mạng và ngôi sao vàng năm cánh tượng trưng cho khối đại đoàn kết các tầng lớp nhân dân."
+  },
+  {
+    "Id": 4,
+    "Level": 1,
+    "Category": "Đời sống",
+    "Content": "Một năm dương lịch nhuận có bao nhiêu ngày?",
+    "Options": ["365 ngày", "364 ngày", "366 ngày", "367 ngày"],
+    "CorrectIndex": 2,
+    "Explanation": "Năm nhuận dương lịch có 366 ngày do tháng 2 có 29 ngày."
+  },
+  {
+    "Id": 5,
+    "Level": 2,
+    "Category": "Văn học",
+    "Content": "Truyện cổ tích nào kể về một cậu bé lên ba không biết nói biết cười, vươn vai thành tráng sĩ đánh đuổi giặc Ân?",
+    "Options": ["Thạch Sanh", "Thánh Gióng", "Mai An Tiêm", "Sơn Tinh Thủy Tinh"],
+    "CorrectIndex": 1,
+    "Explanation": "Thánh Gióng (Phù Đổng Thiên Vương) là một trong tứ bất tử trong tín ngưỡng dân gian Việt Nam."
+  },
+  {
+    "Id": 6,
+    "Level": 2,
+    "Category": "Khoa học",
+    "Content": "Nước sôi ở nhiệt độ bao nhiêu độ C trong điều kiện áp suất khí quyển tiêu chuẩn?",
+    "Options": ["90°C", "100°C", "110°C", "120°C"],
+    "CorrectIndex": 1,
+    "Explanation": "Ở áp suất tiêu chuẩn 1 atm, nước sôi ở 100 độ C."
+  },
+  {
+    "Id": 7,
+    "Level": 2,
+    "Category": "Hóa học",
+    "Content": "Trong bảng tuần hoàn các nguyên tố hóa học, ký hiệu 'Fe' đại diện cho kim loại nào?",
+    "Options": ["Đồng", "Bạc", "Sắt", "Nhôm"],
+    "CorrectIndex": 2,
+    "Explanation": "'Fe' bắt nguồn từ tiếng Latin 'Ferrum', nghĩa là sắt."
+  },
+  {
+    "Id": 8,
+    "Level": 2,
+    "Category": "Thể thao",
+    "Content": "Một trận thi đấu bóng đá chính thức gồm có bao nhiêu hiệp thi đấu chính?",
+    "Options": ["1 hiệp", "2 hiệp", "3 hiệp", "4 hiệp"],
+    "CorrectIndex": 1,
+    "Explanation": "Mỗi trận đấu bóng đá tiêu chuẩn gồm 2 hiệp chính, mỗi hiệp kéo dài 45 phút."
+  },
+  {
+    "Id": 9,
+    "Level": 3,
+    "Category": "Ẩm thực",
+    "Content": "Theo quan niệm dân gian trong sự tích Bánh chưng bánh giầy, bánh chưng hình vuông tượng trưng cho điều gì?",
+    "Options": ["Trời", "Đất", "Mặt trời", "Biển cả"],
+    "CorrectIndex": 1,
+    "Explanation": "Bánh giầy hình tròn tượng trưng cho Trời, bánh chưng hình vuông tượng trưng cho Đất."
+  },
+  {
+    "Id": 10,
+    "Level": 3,
+    "Category": "Âm nhạc",
+    "Content": "Không gian văn hóa Cồng Chiêng Tây Nguyên của Việt Nam được tổ chức nào công nhận là Di sản Văn hóa Phi vật thể?",
+    "Options": ["UNESCO", "WHO", "UNICEF", "WTO"],
+    "CorrectIndex": 0,
+    "Explanation": "UNESCO đã công nhận Không gian văn hóa Cồng Chiêng Tây Nguyên vào năm 2005."
+  },
+  {
+    "Id": 11,
+    "Level": 3,
+    "Category": "Địa lý",
+    "Content": "Tỉnh nào sau đây ở Việt Nam không có đường bờ biển?",
+    "Options": ["Quảng Ninh", "Khánh Hòa", "Bình Thuận", "Gia Lai"],
+    "CorrectIndex": 3,
+    "Explanation": "Gia Lai là tỉnh miền núi thuộc vùng Tây Nguyên, không tiếp giáp biển."
+  },
+  {
+    "Id": 12,
+    "Level": 3,
+    "Category": "Thiên văn",
+    "Content": "Hành tinh nào gần Mặt Trời nhất trong Hệ Mặt Trời?",
+    "Options": ["Sao Kim", "Sao Thủy", "Sao Hỏa", "Trái Đất"],
+    "CorrectIndex": 1,
+    "Explanation": "Sao Thủy (Mercury) là hành tinh gần Mặt Trời nhất với bán kính quỹ đạo trung bình khoảng 58 triệu km."
+  },
+  {
+    "Id": 13,
+    "Level": 4,
+    "Category": "Văn học",
+    "Content": "Tác phẩm hiện thực phê phán nổi tiếng 'Chí Phèo' là sáng tác của nhà văn nào?",
+    "Options": ["Vũ Trọng Phụng", "Nam Cao", "Ngô Tất Tố", "Thạch Lam"],
+    "CorrectIndex": 1,
+    "Explanation": "Nam Cao (1915-1951) là tác giả của kiệt tác 'Chí Phèo' xuất bản lần đầu năm 1941."
+  },
+  {
+    "Id": 14,
+    "Level": 4,
+    "Category": "Thiên văn",
+    "Content": "Hành tinh nào có kích thước và khối lượng lớn nhất trong Hệ Mặt Trời?",
+    "Options": ["Sao Thổ", "Sao Hải Vương", "Sao Mộc", "Sao Thiên Vương"],
+    "CorrectIndex": 2,
+    "Explanation": "Sao Mộc (Jupiter) có khối lượng lớn hơn 2.5 lần tổng khối lượng tất cả các hành tinh khác cộng lại."
+  },
+  {
+    "Id": 15,
+    "Level": 4,
+    "Category": "Du lịch",
+    "Content": "Quần thể danh thắng Tràng An - Di sản Thế giới hỗn hợp đầu tiên của Đông Nam Á thuộc tỉnh nào?",
+    "Options": ["Hà Nam", "Ninh Bình", "Quảng Bình", "Thanh Hóa"],
+    "CorrectIndex": 1,
+    "Explanation": "Quần thể danh thắng Tràng An nằm trọn trong địa phận tỉnh Ninh Bình."
+  },
+  {
+    "Id": 16,
+    "Level": 4,
+    "Category": "Lịch sử",
+    "Content": "Chiến dịch Điện Biên Phủ toàn thắng vào ngày tháng năm nào?",
+    "Options": ["30/04/1975", "07/05/1954", "02/09/1945", "19/08/1945"],
+    "CorrectIndex": 1,
+    "Explanation": "Ngày 7/5/1954, tập đoàn cứ điểm Điện Biên Phủ hoàn toàn bị tiêu diệt, cờ chiến thắng bay trên nóc hầm De Castries."
+  },
+  {
+    "Id": 17,
+    "Level": 5,
+    "Category": "Lịch sử",
+    "Content": "Chủ tịch Hồ Chí Minh đọc bản Tuyên ngôn Độc lập tại Quảng trường Ba Đình vào ngày nào?",
+    "Options": ["19/08/1945", "02/09/1945", "10/10/1954", "03/02/1930"],
+    "CorrectIndex": 1,
+    "Explanation": "Ngày 02/09/1945 là ngày Quốc khánh của nước Cộng hòa Xã hội Chủ nghĩa Việt Nam."
+  },
+  {
+    "Id": 18,
+    "Level": 5,
+    "Category": "Kiến trúc",
+    "Content": "Cầu Vàng với thiết kế hai bàn tay khổng lồ nâng đỡ cây cầu là biểu tượng du lịch nổi tiếng ở đâu?",
+    "Options": ["Đà Nẵng", "Nha Trang", "Đà Lạt", "Phú Quốc"],
+    "CorrectIndex": 0,
+    "Explanation": "Cầu Vàng tọa lạc trên đỉnh Bà Nà Hills thuộc thành phố Đà Nẵng."
+  },
+  {
+    "Id": 19,
+    "Level": 5,
+    "Category": "Sinh học",
+    "Content": "Loài thú chạy nhanh nhất trên cạn hiện nay có thể đạt tốc độ trên 100 km/h là loài nào?",
+    "Options": ["Sư tử châu Phi", "Ngựa vằn", "Báo săn (Cheetah)", "Linh dương đầu bò"],
+    "CorrectIndex": 2,
+    "Explanation": "Báo săn Cheetah có thể tăng tốc từ 0 đến 100 km/h chỉ trong vòng 3 giây ngắn ngủi."
+  },
+  {
+    "Id": 20,
+    "Level": 5,
+    "Category": "Hội họa",
+    "Content": "Bức tranh nổi tiếng 'Em Thúy' là một kiệt tác của danh họa Việt Nam nào?",
+    "Options": ["Tô Ngọc Vân", "Trần Văn Cẩn", "Nguyễn Phan Chánh", "Bùi Xuân Phái"],
+    "CorrectIndex": 1,
+    "Explanation": "Bức tranh sơn dầu 'Em Thúy' do họa sĩ Trần Văn Cẩn sáng tác năm 1943, đã được công nhận là Bảo vật quốc gia."
+  },
+  {
+    "Id": 21,
+    "Level": 6,
+    "Category": "Địa lý thế giới",
+    "Content": "Kim tự tháp Kheops (Giza) - một trong bảy kỳ quan thế giới cổ đại nằm ở quốc gia nào?",
+    "Options": ["Hy Lạp", "Ai Cập", "Jordan", "Thổ Nhĩ Kỳ"],
+    "CorrectIndex": 1,
+    "Explanation": "Đại Kim tự tháp Giza nằm ở vùng ngoại ô thủ đô Cairo của Ai Cập."
+  },
+  {
+    "Id": 22,
+    "Level": 6,
+    "Category": "Địa lý Việt Nam",
+    "Content": "Đỉnh núi Fansipan được mệnh danh là 'Nóc nhà Đông Dương' có độ cao bao nhiêu mét so với mực nước biển?",
+    "Options": ["3.143 m", "3.045 m", "2.998 m", "3.250 m"],
+    "CorrectIndex": 0,
+    "Explanation": "Đỉnh Fansipan thuộc dãy núi Hoàng Liên Sơn có độ cao chính thức hiện nay là 3.143 mét."
+  },
+  {
+    "Id": 23,
+    "Level": 6,
+    "Category": "Khoa học",
+    "Content": "Ai là nhà phát minh nổi tiếng đã đăng ký bằng sáng chế bóng đèn sợi đốt thương mại thành công vào năm 1879?",
+    "Options": ["Nikola Tesla", "Thomas Edison", "Alexander Graham Bell", "Michael Faraday"],
+    "CorrectIndex": 1,
+    "Explanation": "Thomas Edison là nhà phát minh người Mỹ vĩ đại với hơn 1.000 bằng sáng chế."
+  },
+  {
+    "Id": 24,
+    "Level": 6,
+    "Category": "Văn hóa",
+    "Content": "Vịnh Hạ Long của Việt Nam đã bao nhiêu lần được UNESCO công nhận là Di sản Thiên nhiên Thế giới?",
+    "Options": ["1 lần", "2 lần", "3 lần", "4 lần"],
+    "CorrectIndex": 1,
+    "Explanation": "Vịnh Hạ Long được vinh danh năm 1994 (về cảnh quan thẩm mỹ) và năm 2000 (về giá trị địa chất, địa mạo)."
+  },
+  {
+    "Id": 25,
+    "Level": 7,
+    "Category": "Địa lý thế giới",
+    "Content": "Hòn đảo tự nhiên lớn nhất thế giới tính theo diện tích bề mặt là hòn đảo nào?",
+    "Options": ["Madagascar", "New Guinea", "Greenland", "Borneo"],
+    "CorrectIndex": 2,
+    "Explanation": "Greenland có diện tích hơn 2,16 triệu km², là hòn đảo lớn nhất hành tinh."
+  },
+  {
+    "Id": 26,
+    "Level": 7,
+    "Category": "Hội họa",
+    "Content": "Bức danh họa 'Mona Lisa' với nụ cười bí ẩn là kiệt tác bất hủ của nghệ sĩ thời Phục hưng nào?",
+    "Options": ["Michelangelo", "Raphael", "Leonardo da Vinci", "Sandro Botticelli"],
+    "CorrectIndex": 2,
+    "Explanation": "Leonardo da Vinci bắt đầu vẽ kiệt tác Mona Lisa vào khoảng năm 1503."
+  },
+  {
+    "Id": 27,
+    "Level": 7,
+    "Category": "Sinh học",
+    "Content": "Cơ quan nào trong cơ thể con người chịu trách nhiệm chính trong việc lọc máu và bài tiết nước tiểu?",
+    "Options": ["Gan", "Thận", "Tụy", "Phổi"],
+    "CorrectIndex": 1,
+    "Explanation": "Thận là cơ quan bài tiết trọng yếu, lọc chất cặn bã và duy trì cân bằng điện giải."
+  },
+  {
+    "Id": 28,
+    "Level": 7,
+    "Category": "Sông ngòi",
+    "Content": "Dòng sông Mê Kông chảy qua 6 quốc gia xuất phát từ khu vực nào?",
+    "Options": ["Cao nguyên Tây Tạng", "Dãy Himalaya", "Vân Nam", "Dãy Ural"],
+    "CorrectIndex": 0,
+    "Explanation": "Sông Mê Kông bắt nguồn từ cao nguyên Tây Tạng ở độ cao gần 5.000m so với mực nước biển."
+  },
+  {
+    "Id": 29,
+    "Level": 8,
+    "Category": "Lịch sử Việt Nam",
+    "Content": "Cuộc khởi nghĩa Hai Bà Trưng chống lại ách đô hộ của nhà Đông Hán bùng nổ vào năm nào sau Công nguyên?",
+    "Options": ["Năm 40 SCN", "Năm 43 SCN", "Năm 248 SCN", "Năm 938 SCN"],
+    "CorrectIndex": 0,
+    "Explanation": "Mùa xuân năm 40 SCN, Hai Bà Trưng phất cờ khởi nghĩa tại cửa sông Hát Môn."
+  },
+  {
+    "Id": 30,
+    "Level": 8,
+    "Category": "Khí tượng học",
+    "Content": "Chất khí nào chiếm tỉ lệ thể tích lớn nhất trong bầu khí quyển của Trái Đất (khoảng 78%)?",
+    "Options": ["Oxy", "Nitơ (Nitrogen)", "Argon", "Carbon dioxide"],
+    "CorrectIndex": 1,
+    "Explanation": "Khí Nitơ chiếm khoảng 78% thể tích khí quyển, Oxy chiếm khoảng 21%."
+  },
+  {
+    "Id": 31,
+    "Level": 8,
+    "Category": "Hải dương",
+    "Content": "Đại dương nào có diện tích và độ sâu trung bình lớn nhất trên bề mặt Trái Đất?",
+    "Options": ["Đại Tây Dương", "Ấn Độ Dương", "Thái Bình Dương", "Bắc Băng Dương"],
+    "CorrectIndex": 2,
+    "Explanation": "Thái Bình Dương chiếm hơn 30% diện tích bề mặt Trái Đất, rộng hơn tất cả đất liền cộng lại."
+  },
+  {
+    "Id": 32,
+    "Level": 8,
+    "Category": "Văn học cổ điển",
+    "Content": "'Truyện Kiều' bất hủ của Đại thi hào Nguyễn Du được viết bằng thể thơ truyền thống nào?",
+    "Options": ["Thơ Song thất lục bát", "Thơ Lục bát", "Thơ Thất ngôn bát cú", "Thơ Tự do"],
+    "CorrectIndex": 1,
+    "Explanation": "Truyện Kiều gồm 3.254 câu thơ lục bát tuyệt tác bằng chữ Nôm."
+  },
+  {
+    "Id": 33,
+    "Level": 9,
+    "Category": "Vật lý",
+    "Content": "Tốc độ ánh sáng lan truyền trong chân không có giá trị xấp xỉ bằng bao nhiêu?",
+    "Options": ["150.000 km/giây", "300.000 km/giây", "450.000 km/giây", "600.000 km/giây"],
+    "CorrectIndex": 1,
+    "Explanation": "Vận tốc ánh sáng trong chân không chính xác là 299.792.458 m/s, xấp xỉ 300.000 km/s."
+  },
+  {
+    "Id": 34,
+    "Level": 9,
+    "Category": "Lịch sử",
+    "Content": "Triều đại phong kiến nào có thời gian tồn tại và trị vì dài nhất trong lịch sử Việt Nam?",
+    "Options": ["Nhà Lý", "Nhà Trần", "Nhà Hậu Lê", "Nhà Nguyễn"],
+    "CorrectIndex": 2,
+    "Explanation": "Nhà Hậu Lê (bao gồm Lê Sơ và Lê Trung Hưng) tồn tại tổng cộng 355 năm (1428 - 1789)."
+  },
+  {
+    "Id": 35,
+    "Level": 9,
+    "Category": "Hàng hải",
+    "Content": "Kênh đào Panama là công trình thủy đạo nhân tạo kết nối hai đại dương nào?",
+    "Options": ["Thái Bình Dương và Đại Tây Dương", "Đại Tây Dương và Ấn Độ Dương", "Thái Bình Dương và Bắc Băng Dương", "Địa Trung Hải và Biển Đỏ"],
+    "CorrectIndex": 0,
+    "Explanation": "Kênh đào Panama cắt ngang eo đất Panama nối thông Thái Bình Dương và Đại Tây Dương."
+  },
+  {
+    "Id": 36,
+    "Level": 9,
+    "Category": "Âm nhạc",
+    "Content": "Ai được mệnh danh là 'Thần đồng âm nhạc cổ điển' sinh ra tại Salzburg (Áo), bắt đầu sáng tác từ năm 5 tuổi?",
+    "Options": ["Ludwig van Beethoven", "Wolfgang Amadeus Mozart", "Johann Sebastian Bach", "Frederic Chopin"],
+    "CorrectIndex": 1,
+    "Explanation": "W. A. Mozart là nhà soạn nhạc thiên tài lừng danh thời kỳ Cổ điển phương Tây."
+  },
+  {
+    "Id": 37,
+    "Level": 10,
+    "Category": "Văn hóa nghệ thuật",
+    "Content": "Bản 'Dạ cổ hoài lang' - tiền thân của nghệ thuật Vọng cổ miền Tây Nam Bộ do cố nhạc sĩ Cao Văn Lầu sáng tác tại tỉnh nào?",
+    "Options": ["Bạc Liêu", "Cà Mau", "Tiền Giang", "Bến Tre"],
+    "CorrectIndex": 0,
+    "Explanation": "Nhạc sĩ Cao Văn Lầu sáng tác 'Dạ cổ hoài lang' vào khoảng năm 1919 tại Bạc Liêu."
+  },
+  {
+    "Id": 38,
+    "Level": 10,
+    "Category": "Vũ trụ học",
+    "Content": "Nhà du hành vũ trụ đầu tiên trong lịch sử nhân loại bay vào quỹ đạo Trái Đất trên tàu Vostok 1 năm 1961 là ai?",
+    "Options": ["Neil Armstrong", "Yuri Gagarin", "Buzz Aldrin", "John Glenn"],
+    "CorrectIndex": 1,
+    "Explanation": "Phi hành gia Liên Xô Yuri Gagarin đã mở ra kỷ nguyên chinh phục không gian vào ngày 12/4/1961."
+  },
+  {
+    "Id": 39,
+    "Level": 10,
+    "Category": "Thủy văn",
+    "Content": "Thác nước nào được xem là thác nước tự nhiên có lưu lượng dòng chảy và bề rộng lớn nhất Đông Nam Á?",
+    "Options": ["Thác Bản Giốc (Việt Nam)", "Thác Khone Phapheng (Lào)", "Thác K50 (Gia Lai)", "Thác Erawan (Thái Lan)"],
+    "CorrectIndex": 1,
+    "Explanation": "Thác Khone Phapheng trên dòng Mê Kông thuộc tỉnh Champasak (Lào) là hệ thống thác rộng nhất thế giới."
+  },
+  {
+    "Id": 40,
+    "Level": 10,
+    "Category": "Kinh tế",
+    "Content": "Đồng tiền chung châu Âu (Euro) chính thức được đưa vào lưu thông dưới dạng tiền mặt từ năm nào?",
+    "Options": ["1999", "2000", "2002", "2005"],
+    "CorrectIndex": 2,
+    "Explanation": "Tiền mặt Euro chính thức lưu hành vào ngày 1 tháng 1 năm 2002."
+  },
+  {
+    "Id": 41,
+    "Level": 11,
+    "Category": "Lịch sử văn học",
+    "Content": "Bài thơ nào thường được coi là bản 'Tuyên ngôn độc lập đầu tiên' trong lịch sử dân tộc Việt Nam?",
+    "Options": ["Bình Ngô đại cáo", "Hịch tướng sĩ", "Nam quốc sơn hà", "Chiếu dời đô"],
+    "CorrectIndex": 2,
+    "Explanation": "Bài thơ Nam quốc sơn hà vang lên hào hùng bên phòng tuyến sông Như Nguyệt năm 1077."
+  },
+  {
+    "Id": 42,
+    "Level": 11,
+    "Category": "Hóa học hữu cơ",
+    "Content": "Hợp chất hóa học nào chịu trách nhiệm tạo nên vị cay nồng đặc trưng của các loại quả thuộc chi Ớt?",
+    "Options": ["Capsaicin", "Piperine", "Allicin", "Curcumin"],
+    "CorrectIndex": 0,
+    "Explanation": "Capsaicin liên kết với các thụ thể cảm giác nhiệt trên lưỡi và niêm mạc tạo ra cảm giác cay rát."
+  },
+  {
+    "Id": 43,
+    "Level": 11,
+    "Category": "Địa lý chính trị",
+    "Content": "Quốc gia nào sở hữu số lượng múi giờ chính thức nhiều nhất trên thế giới (tính cả các vùng lãnh thổ hải ngoại)?",
+    "Options": ["Nga", "Hoa Kỳ", "Pháp", "Vương quốc Anh"],
+    "CorrectIndex": 2,
+    "Explanation": "Nước Pháp có đến 12 múi giờ nhờ vào nhiều vùng lãnh thổ hải ngoại trải rộng khắp các đại dương."
+  },
+  {
+    "Id": 44,
+    "Level": 11,
+    "Category": "Y học",
+    "Content": "Kháng sinh Penicillin - bước ngoặt y học cứu sống hàng trăm triệu người được phát hiện năm 1928 bởi ai?",
+    "Options": ["Alexander Fleming", "Louis Pasteur", "Robert Koch", "Edward Jenner"],
+    "CorrectIndex": 0,
+    "Explanation": "Alexander Fleming tình cờ phát hiện chất kháng khuẩn tiết ra từ loài nấm mốc Penicillium notatum."
+  },
+  {
+    "Id": 45,
+    "Level": 12,
+    "Category": "Vật liệu",
+    "Content": "Nguyên tố kim loại nào có nhiệt độ nóng chảy cao nhất trong điều kiện tiêu chuẩn (khoảng 3.422 °C)?",
+    "Options": ["Titan (Titanium)", "Wolfram (Tungsten)", "Bạch kim (Platinum)", "Osmi (Osmium)"],
+    "CorrectIndex": 1,
+    "Explanation": "Wolfram (W) có nhiệt độ nóng chảy kỷ lục trong các kim loại, được dùng làm dây tóc bóng đèn sợi đốt."
+  },
+  {
+    "Id": 46,
+    "Level": 12,
+    "Category": "Lịch sử triều Nguyễn",
+    "Content": "Vị hoàng đế nào của triều đại nhà Nguyễn có thời gian trị vì ngắn nhất trong lịch sử (chỉ khoảng 3 ngày)?",
+    "Options": ["Vua Hiệp Hòa", "Vua Dục Đức", "Vua Kiến Phúc", "Vua Hàm Nghi"],
+    "CorrectIndex": 1,
+    "Explanation": "Vua Dục Đức lên ngôi năm 1883 và bị phế truất chỉ sau 3 ngày làm lễ đăng quang."
+  },
+  {
+    "Id": 47,
+    "Level": 12,
+    "Category": "Giải Nobel",
+    "Content": "Ai là nhà khoa học nữ duy nhất từng giành hai giải Nobel ở hai lĩnh vực khoa học tự nhiên khác nhau?",
+    "Options": ["Marie Curie", "Rosalind Franklin", "Dorothy Hodgkin", "Ada Lovelace"],
+    "CorrectIndex": 0,
+    "Explanation": "Marie Curie đoạt giải Nobel Vật lý năm 1903 và giải Nobel Hóa học năm 1911."
+  },
+  {
+    "Id": 48,
+    "Level": 12,
+    "Category": "Thiên văn học",
+    "Content": "Vệ tinh tự nhiên nào lớn nhất của Sao Thổ, đồng thời là thiên thể duy nhất ngoài Trái Đất có bầu khí quyển đậm đặc?",
+    "Options": ["Titan", "Enceladus", "Europa", "Ganymede"],
+    "CorrectIndex": 0,
+    "Explanation": "Titan là vệ tinh lớn thứ hai trong Hệ Mặt Trời với bầu khí quyển dày đặc chứa phần lớn là Nitơ."
+  },
+  {
+    "Id": 49,
+    "Level": 13,
+    "Category": "Lịch sử quân sự",
+    "Content": "Trận thủy chiến Bạch Đằng lịch sử năm 938 do Ngô Quyền chỉ huy đã đập tan đội quân xâm lược nào?",
+    "Options": ["Quân Nam Hán", "Quân Tống", "Quân Nguyên Mông", "Quân Minh"],
+    "CorrectIndex": 0,
+    "Explanation": "Ngô Quyền dùng cọc gỗ bọc sắt cắm dưới lòng sông Bạch Đằng tiêu diệt hoàn toàn quân Nam Hán."
+  },
+  {
+    "Id": 50,
+    "Level": 13,
+    "Category": "Địa chất biển",
+    "Content": "Điểm sâu nhất từng được xác định của các đại dương trên Trái Đất (vực sâu Challenger) nằm ở rãnh đại dương nào?",
+    "Options": ["Rãnh Puerto Rico", "Rãnh Java", "Rãnh Mariana", "Rãnh Philippine"],
+    "CorrectIndex": 2,
+    "Explanation": "Vực thẳm Challenger thuộc Rãnh Mariana có độ sâu gần 11.000 mét dưới mực nước biển."
+  },
+  {
+    "Id": 51,
+    "Level": 13,
+    "Category": "Ngôn ngữ học",
+    "Content": "Bảng chữ cái Cyrillic (chữ Kirin) dùng cho nhiều ngôn ngữ Slav được đặt theo tên của vị thánh nào?",
+    "Options": ["Thánh Cyril", "Thánh Methodius", "Thánh Basil", "Thánh Nicholas"],
+    "CorrectIndex": 0,
+    "Explanation": "Hai anh em thánh Cyril và Methodius là các nhà truyền giáo Kitô giáo người Hy Lạp đã sáng tạo ra hệ chữ viết này."
+  },
+  {
+    "Id": 52,
+    "Level": 13,
+    "Category": "Vật lý lượng tử",
+    "Content": "Hằng số Planck trong vật lý lượng tử thường được ký hiệu bằng chữ cái nào?",
+    "Options": ["c", "h", "k", "G"],
+    "CorrectIndex": 1,
+    "Explanation": "Hằng số Planck có ký hiệu là 'h', giá trị xấp xỉ bằng 6.626 x 10^-34 Joule-giây."
+  },
+  {
+    "Id": 53,
+    "Level": 14,
+    "Category": "Lịch sử ngoại giao",
+    "Content": "Hiệp định Genève về chấm dứt chiến sự và lập lại hòa bình ở Đông Dương được ký kết vào ngày tháng năm nào?",
+    "Options": ["21/07/1954", "07/05/1954", "27/01/1973", "02/09/1945"],
+    "CorrectIndex": 0,
+    "Explanation": "Hiệp định Genève được ký ngày 21/7/1954 sau thắng lợi Điện Biên Phủ chấn động địa cầu."
+  },
+  {
+    "Id": 54,
+    "Level": 14,
+    "Category": "Vật lý hạt nhân",
+    "Content": "Hạt cơ bản nào tạo nên khối lượng cho các hạt khác và thường được truyền thông mệnh danh là 'Hạt của Chúa'?",
+    "Options": ["Quark Top", "Boson Higgs", "Neutrino", "Gluon"],
+    "CorrectIndex": 1,
+    "Explanation": "Boson Higgs được Peter Higgs dự đoán lý thuyết năm 1964 và thực nghiệm tại CERN xác nhận năm 2012."
+  },
+  {
+    "Id": 55,
+    "Level": 14,
+    "Category": "Địa lý sinh thái",
+    "Content": "Hồ Baikal ở Nga là hồ nước ngọt sâu nhất thế giới và chứa xấp xỉ bao nhiêu phần trăm nước ngọt mặt không đóng băng của Trái Đất?",
+    "Options": ["Khoảng 10%", "Khoảng 20%", "Khoảng 30%", "Khoảng 40%"],
+    "CorrectIndex": 1,
+    "Explanation": "Hồ Baikal chứa khoảng 20% tổng lượng nước ngọt bề mặt không đóng băng của toàn hành tinh."
+  },
+  {
+    "Id": 56,
+    "Level": 14,
+    "Category": "Khoa học máy tính",
+    "Content": "Ai được coi là lập trình viên đầu tiên trên thế giới khi viết thuật toán đầu tiên cho cỗ máy cơ học của Babbage?",
+    "Options": ["Alan Turing", "Ada Lovelace", "Grace Hopper", "John von Neumann"],
+    "CorrectIndex": 1,
+    "Explanation": "Nữ bá tước Ada Lovelace (1815-1852) được công nhận là lập trình viên máy tính đầu tiên trong lịch sử."
+  },
+  {
+    "Id": 57,
+    "Level": 15,
+    "Category": "Huyền sử Việt Nam",
+    "Content": "Theo truyền thuyết khởi nghĩa Lam Sơn, phần chuôi của thanh bảo kiếm Thuận Thiên được Lê Lợi tìm thấy ở đâu?",
+    "Options": ["Trong hang đá Chí Linh", "Dưới đáy sông Lương", "Trên một ngọn cây đa", "Dưới luống cày ở đầm nước"],
+    "CorrectIndex": 2,
+    "Explanation": "Lưỡi kiếm do Lê Thận kéo lưới được dưới nước, còn chuôi kiếm nạm ngọc do Lê Lợi thấy phát sáng trên ngọn cây đa."
+  },
+  {
+    "Id": 58,
+    "Level": 15,
+    "Category": "Thiên văn học",
+    "Content": "Hành tinh nào trong Hệ Mặt Trời có trục tự quay nghiêng xấp xỉ 98 độ, khiến nó quay quanh Mặt Trời gần như trong tư thế 'nằm ngang'?",
+    "Options": ["Sao Kim", "Sao Thiên Vương (Uranus)", "Sao Thổ", "Sao Hải Vương"],
+    "CorrectIndex": 1,
+    "Explanation": "Sao Thiên Vương có độ nghiêng trục tự quay tới 97.77 độ, cực kỳ độc đáo so với các hành tinh khác."
+  },
+  {
+    "Id": 59,
+    "Level": 15,
+    "Category": "Khoa bảng Việt Nam",
+    "Content": "Vị Trạng nguyên nhỏ tuổi nhất trong lịch sử khoa bảng Việt Nam khi đỗ Trạng nguyên năm 13 tuổi vào năm 1247 là ai?",
+    "Options": ["Mạc Đĩnh Chi", "Lương Thế Vinh", "Nguyễn Hiền", "Lê Văn Hưu"],
+    "CorrectIndex": 2,
+    "Explanation": "Nguyễn Hiền (1234-1256) quê Nam Định, đỗ Trạng nguyên khoa thi Đinh Mùi (1247) thời vua Trần Thái Tông khi mới 13 tuổi."
+  },
+  {
+    "Id": 60,
+    "Level": 15,
+    "Category": "Chủ quyền & Lịch sử",
+    "Content": "Tấm bản đồ 'Đại Nam nhất thống toàn đồ' khẳng định chủ quyền của Việt Nam đối với Hoàng Sa và Trường Sa được hoàn thành dưới thời vua nào?",
+    "Options": ["Vua Gia Long", "Vua Minh Mạng", "Vua Thiệu Trị", "Vua Tự Đức"],
+    "CorrectIndex": 1,
+    "Explanation": "Đại Nam nhất thống toàn đồ được khắc in và hoàn thành vào khoảng năm 1838 dưới triều vua Minh Mạng."
+  },
+  {
+    "Id": 61,
+    "Level": 1,
+    "Category": "Địa lý",
+    "Content": "Thủ đô của nước Pháp là thành phố nào?",
+    "Options": ["London", "Berlin", "Paris", "Rome"],
+    "CorrectIndex": 2,
+    "Explanation": "Paris là thủ đô và cũng là thành phố đông dân nhất của nước Pháp, nổi tiếng với tháp Eiffel."
+  },
+  {
+    "Id": 62,
+    "Level": 1,
+    "Category": "Đời sống",
+    "Content": "Theo lịch dương, một tuần lễ có bao nhiêu ngày?",
+    "Options": ["5 ngày", "6 ngày", "7 ngày", "8 ngày"],
+    "CorrectIndex": 2,
+    "Explanation": "Một tuần lễ dương lịch tiêu chuẩn có 7 ngày, bắt đầu từ Thứ Hai hoặc Chủ Nhật tùy khu vực."
+  },
+  {
+    "Id": 63,
+    "Level": 1,
+    "Category": "Giao thông",
+    "Content": "Đèn tín hiệu giao thông màu nào báo hiệu các phương tiện phải dừng lại?",
+    "Options": ["Màu xanh", "Màu đỏ", "Màu vàng", "Màu trắng"],
+    "CorrectIndex": 1,
+    "Explanation": "Đèn đỏ là tín hiệu bắt buộc người điều khiển phương tiện giao thông phải dừng lại."
+  },
+  {
+    "Id": 64,
+    "Level": 1,
+    "Category": "Xã hội",
+    "Content": "Ngày Quốc tế Thiếu nhi được tổ chức vào ngày nào hàng năm?",
+    "Options": ["1/5", "1/6", "15/8", "20/11"],
+    "CorrectIndex": 1,
+    "Explanation": "Ngày Quốc tế Thiếu nhi là ngày 1 tháng 6 hàng năm, là ngày lễ vì trẻ em trên toàn thế giới."
+  },
+  {
+    "Id": 65,
+    "Level": 1,
+    "Category": "Động vật",
+    "Content": "Loài vật nào sau đây thường được nuôi để giữ nhà và được mệnh danh là người bạn trung thành của con người?",
+    "Options": ["Chó", "Mèo", "Chuột", "Gà"],
+    "CorrectIndex": 0,
+    "Explanation": "Chó là loài vật nuôi phổ biến nhất để giữ nhà và được xem là người bạn trung thành của con người."
+  },
+  {
+    "Id": 66,
+    "Level": 1,
+    "Category": "Địa lý Việt Nam",
+    "Content": "Lăng Chủ tịch Hồ Chí Minh (Lăng Bác) được đặt tại thành phố nào?",
+    "Options": ["Huế", "TP. Hồ Chí Minh", "Hà Nội", "Hải Phòng"],
+    "CorrectIndex": 2,
+    "Explanation": "Lăng Bác tọa lạc tại Quảng trường Ba Đình, thủ đô Hà Nội."
+  },
+  {
+    "Id": 67,
+    "Level": 1,
+    "Category": "Âm nhạc",
+    "Content": "Nhạc cụ nào sau đây có phím đàn màu đen và trắng?",
+    "Options": ["Đàn Guitar", "Đàn Piano", "Đàn Violon", "Đàn Nhị"],
+    "CorrectIndex": 1,
+    "Explanation": "Piano (dương cầm) là nhạc cụ có bàn phím tiêu chuẩn gồm 88 phím đen và trắng."
+  },
+  {
+    "Id": 68,
+    "Level": 2,
+    "Category": "Thiên văn học",
+    "Content": "Hành tinh nào là nơi sinh sống của loài người?",
+    "Options": ["Sao Hỏa", "Sao Kim", "Trái Đất", "Sao Mộc"],
+    "CorrectIndex": 2,
+    "Explanation": "Trái Đất là hành tinh thứ ba tính từ Mặt Trời và là hành tinh duy nhất được biết đến có sự sống."
+  },
+  {
+    "Id": 69,
+    "Level": 2,
+    "Category": "Ẩm thực",
+    "Content": "Món ăn truyền thống nào thường được người Việt Nam làm để cúng tổ tiên trong dịp Tết Nguyên Đán?",
+    "Options": ["Bánh trung thu", "Bánh chưng", "Bánh xèo", "Bánh cuốn"],
+    "CorrectIndex": 1,
+    "Explanation": "Bánh chưng, bánh giầy là hai loại bánh truyền thống không thể thiếu trong dịp Tết Nguyên Đán."
+  },
+  {
+    "Id": 70,
+    "Level": 2,
+    "Category": "Văn học",
+    "Content": "Ai là tác giả của tác phẩm thiếu nhi nổi tiếng 'Dế Mèn phiêu lưu ký'?",
+    "Options": ["Nam Cao", "Thạch Lam", "Tô Hoài", "Vũ Trọng Phụng"],
+    "CorrectIndex": 2,
+    "Explanation": "Nhà văn Tô Hoài sáng tác tác phẩm 'Dế Mèn phiêu lưu ký' vào năm 1941."
+  },
+  {
+    "Id": 71,
+    "Level": 2,
+    "Category": "Sinh học",
+    "Content": "Cơ quan nào trong cơ thể con người hoạt động như một chiếc máy bơm để bơm máu đi khắp cơ thể?",
+    "Options": ["Phổi", "Dạ dày", "Não", "Tim"],
+    "CorrectIndex": 3,
+    "Explanation": "Tim là một khối cơ rỗng có chức năng co bóp nhịp nhàng để bơm máu đi nuôi cơ thể."
+  },
+  {
+    "Id": 72,
+    "Level": 2,
+    "Category": "Địa lý thế giới",
+    "Content": "Châu lục nào lạnh nhất thế giới và hầu như bị băng tuyết bao phủ quanh năm?",
+    "Options": ["Châu Âu", "Châu Nam Cực", "Châu Phi", "Châu Á"],
+    "CorrectIndex": 1,
+    "Explanation": "Châu Nam Cực là lục địa lạnh nhất, khô nhất và có nhiều gió nhất trên Trái Đất."
+  },
+  {
+    "Id": 73,
+    "Level": 2,
+    "Category": "Âm nhạc",
+    "Content": "Tác giả của bài hát 'Tiến quân ca' (Quốc ca Việt Nam) là nhạc sĩ nào?",
+    "Options": ["Trịnh Công Sơn", "Phạm Duy", "Văn Cao", "Lưu Hữu Phước"],
+    "CorrectIndex": 2,
+    "Explanation": "Cố nhạc sĩ Văn Cao đã sáng tác bài hát 'Tiến quân ca' vào cuối năm 1944."
+  },
+  {
+    "Id": 74,
+    "Level": 2,
+    "Category": "Toán học",
+    "Content": "Kết quả của phép tính 15 x 0 bằng bao nhiêu?",
+    "Options": ["0", "15", "1", "150"],
+    "CorrectIndex": 0,
+    "Explanation": "Bất kỳ số nào nhân với 0 đều có kết quả bằng 0."
+  },
+  {
+    "Id": 75,
+    "Level": 3,
+    "Category": "Động vật",
+    "Content": "Loài động vật nào hiện được công nhận là lớn nhất đang sinh sống trên hành tinh của chúng ta?",
+    "Options": ["Voi châu Phi", "Hà mã", "Cá mập trắng lớn", "Cá voi xanh"],
+    "CorrectIndex": 3,
+    "Explanation": "Cá voi xanh (Blue whale) là loài động vật lớn nhất từng tồn tại, có thể dài tới 30m và nặng hơn 150 tấn."
+  },
+  {
+    "Id": 76,
+    "Level": 3,
+    "Category": "Văn học dân gian",
+    "Content": "Trong truyện cổ tích 'Tấm Cám', cô Tấm sau khi bị hại đã hóa thân lần đầu tiên thành con vật gì?",
+    "Options": ["Chim Vàng Anh", "Con tôm", "Con cá bống", "Con dế mèn"],
+    "CorrectIndex": 0,
+    "Explanation": "Theo truyện Tấm Cám, Tấm bị mẹ con Cám hại chết và hóa thân thành chim Vàng Anh."
+  },
+  {
+    "Id": 77,
+    "Level": 3,
+    "Category": "Địa lý thế giới",
+    "Content": "Đỉnh núi nào được công nhận là cao nhất thế giới hiện nay?",
+    "Options": ["Đỉnh K2", "Đỉnh Phú Sĩ", "Đỉnh Everest", "Đỉnh Kilimanjaro"],
+    "CorrectIndex": 2,
+    "Explanation": "Đỉnh Everest cao 8.848,86 mét, nằm trên dãy Himalaya biên giới giữa Nepal và Trung Quốc (Tây Tạng)."
+  },
+  {
+    "Id": 78,
+    "Level": 3,
+    "Category": "Văn hóa",
+    "Content": "Hàng năm, ngày Giỗ Tổ Hùng Vương của Việt Nam diễn ra vào ngày nào theo Âm lịch?",
+    "Options": ["Mùng 10 tháng 3", "Rằm tháng 8", "Mùng 1 tháng Giêng", "Mùng 5 tháng 5"],
+    "CorrectIndex": 0,
+    "Explanation": "Ngày mùng 10 tháng 3 Âm lịch là ngày Quốc giỗ tưởng nhớ công lao dựng nước của các Vua Hùng."
+  },
+  {
+    "Id": 79,
+    "Level": 3,
+    "Category": "Khoa học",
+    "Content": "Màu sắc nào không có trong 7 màu sắc cơ bản của cầu vồng?",
+    "Options": ["Đỏ", "Xanh lá cây", "Nâu", "Tím"],
+    "CorrectIndex": 2,
+    "Explanation": "Bảy màu của cầu vồng là: Đỏ, Cam, Vàng, Lục (xanh lá), Lam, Chàm, Tím."
+  },
+  {
+    "Id": 80,
+    "Level": 3,
+    "Category": "Địa lý Việt Nam",
+    "Content": "Thành phố nào ở Việt Nam nổi tiếng với tên gọi 'Thành phố ngàn hoa' hoặc 'Thành phố sương mù'?",
+    "Options": ["Sa Pa", "Đà Lạt", "Tam Đảo", "Pleiku"],
+    "CorrectIndex": 1,
+    "Explanation": "Đà Lạt thuộc tỉnh Lâm Đồng, nổi tiếng với khí hậu mát mẻ và sương mù bao phủ."
+  },
+  {
+    "Id": 81,
+    "Level": 3,
+    "Category": "Thể thao",
+    "Content": "Môn thể thao nào được mệnh danh là 'Môn thể thao vua' trên toàn cầu?",
+    "Options": ["Bóng rổ", "Quần vợt", "Bóng đá", "Bơi lội"],
+    "CorrectIndex": 2,
+    "Explanation": "Bóng đá thu hút hàng tỷ người hâm mộ và được xem là môn thể thao vua."
+  },
+  {
+    "Id": 82,
+    "Level": 4,
+    "Category": "Hội họa",
+    "Content": "Bức họa nổi tiếng 'Đêm đầy sao' (The Starry Night) là tác phẩm của họa sĩ nào?",
+    "Options": ["Leonardo da Vinci", "Vincent van Gogh", "Pablo Picasso", "Claude Monet"],
+    "CorrectIndex": 1,
+    "Explanation": "Họa sĩ người Hà Lan Vincent van Gogh vẽ bức 'Đêm đầy sao' vào năm 1889."
+  },
+  {
+    "Id": 83,
+    "Level": 4,
+    "Category": "Hóa học",
+    "Content": "Ký hiệu 'O' trong bảng tuần hoàn hóa học là của nguyên tố nào, cực kỳ quan trọng cho sự hô hấp?",
+    "Options": ["Vàng", "Carbon", "Oxy (Oxygen)", "Sắt"],
+    "CorrectIndex": 2,
+    "Explanation": "Oxy (Oxygen) có ký hiệu hóa học là O, duy trì sự sống và sự cháy."
+  },
+  {
+    "Id": 84,
+    "Level": 4,
+    "Category": "Thể thao",
+    "Content": "Đội tuyển bóng đá quốc gia nào giành được nhiều chức vô địch World Cup nhất tính đến nay?",
+    "Options": ["Đức", "Ý", "Argentina", "Brazil"],
+    "CorrectIndex": 3,
+    "Explanation": "Đội tuyển quốc gia Brazil đã 5 lần vô địch World Cup (1958, 1962, 1970, 1994, 2002)."
+  },
+  {
+    "Id": 85,
+    "Level": 4,
+    "Category": "Phát minh",
+    "Content": "Ai là người được cấp bằng sáng chế cho chiếc điện thoại thực tiễn đầu tiên trên thế giới?",
+    "Options": ["Alexander Graham Bell", "Thomas Edison", "Nikola Tesla", "Isaac Newton"],
+    "CorrectIndex": 0,
+    "Explanation": "Alexander Graham Bell được cấp bằng sáng chế điện thoại đầu tiên vào năm 1876."
+  },
+  {
+    "Id": 86,
+    "Level": 4,
+    "Category": "Văn học dân gian",
+    "Content": "Trong truyện cổ tích 'Cây tre trăm đốt', ai là người đã bày cách cho anh Khoai đọc câu thần chú 'Khắc nhập, khắc xuất'?",
+    "Options": ["Phật bà Quan Âm", "Bụt", "Tiên nữ", "Lão nông"],
+    "CorrectIndex": 1,
+    "Explanation": "Bụt (ông tiên hiền từ) hiện lên và chỉ cho anh Khoai câu thần chú để nối các đốt tre lại."
+  },
+  {
+    "Id": 87,
+    "Level": 4,
+    "Category": "Lịch sử Việt Nam",
+    "Content": "Trước khi đổi tên thành Thành phố Hồ Chí Minh, thành phố này có tên là gì?",
+    "Options": ["Gia Định", "Sài Gòn", "Chợ Lớn", "Trấn Biên"],
+    "CorrectIndex": 1,
+    "Explanation": "Ngày 2 tháng 7 năm 1976, Quốc hội quyết định đổi tên Sài Gòn - Gia Định thành TP. Hồ Chí Minh."
+  },
+  {
+    "Id": 88,
+    "Level": 4,
+    "Category": "Sinh học",
+    "Content": "Động vật có vú duy nhất trên Trái Đất có khả năng bay lượn thực sự là loài nào?",
+    "Options": ["Sóc bay", "Dơi", "Đà điểu", "Gà lôi"],
+    "CorrectIndex": 1,
+    "Explanation": "Dơi là động vật có vú duy nhất biết bay thực sự, trong khi sóc bay chỉ lượn được."
+  },
+  {
+    "Id": 89,
+    "Level": 5,
+    "Category": "Địa lý thế giới",
+    "Content": "Châu lục nào có diện tích lớn nhất và đông dân nhất trên thế giới?",
+    "Options": ["Châu Phi", "Châu Mỹ", "Châu Á", "Châu Âu"],
+    "CorrectIndex": 2,
+    "Explanation": "Châu Á chiếm khoảng 30% diện tích đất liền và chứa khoảng 60% dân số thế giới."
+  },
+  {
+    "Id": 90,
+    "Level": 5,
+    "Category": "Văn hóa",
+    "Content": "Lễ hội hóa trang Halloween truyền thống được tổ chức vào ngày nào hàng năm?",
+    "Options": ["31/10", "24/12", "14/02", "1/4"],
+    "CorrectIndex": 0,
+    "Explanation": "Halloween (Viết tắt của All Hallows' Eve) được tổ chức vào ngày cuối cùng của tháng 10 hàng năm."
+  },
+  {
+    "Id": 91,
+    "Level": 5,
+    "Category": "Lịch sử Việt Nam",
+    "Content": "Ai là người Việt Nam (và cũng là người châu Á) đầu tiên bay vào vũ trụ?",
+    "Options": ["Nguyễn Tuân", "Phạm Tuân", "Hoàng Xuân Vinh", "Ngô Bảo Châu"],
+    "CorrectIndex": 1,
+    "Explanation": "Trung tướng, Anh hùng Lực lượng vũ trang nhân dân Phạm Tuân bay vào vũ trụ năm 1980 trên tàu Liên hợp 37."
+  },
+  {
+    "Id": 92,
+    "Level": 5,
+    "Category": "Công nghệ",
+    "Content": "Chiếc máy tính điện tử đầu tiên trên thế giới được phát minh vào năm 1946 có tên là gì?",
+    "Options": ["UNIVAC", "IBM PC", "ENIAC", "Macintosh"],
+    "CorrectIndex": 2,
+    "Explanation": "ENIAC là siêu máy tính điện tử đa năng đầu tiên, khổng lồ và sử dụng bóng đèn chân không."
+  },
+  {
+    "Id": 93,
+    "Level": 5,
+    "Category": "Lịch sử thế giới",
+    "Content": "Vị tổng thống đầu tiên của Hợp chủng quốc Hoa Kỳ (Mỹ) là ai?",
+    "Options": ["Abraham Lincoln", "Thomas Jefferson", "George Washington", "John Adams"],
+    "CorrectIndex": 2,
+    "Explanation": "George Washington là vị tổng thống đầu tiên của Hoa Kỳ, tại nhiệm từ năm 1789 đến 1797."
+  },
+  {
+    "Id": 94,
+    "Level": 5,
+    "Category": "Sinh học",
+    "Content": "Vitamin nào đóng vai trò quan trọng trong quá trình đông máu của cơ thể con người?",
+    "Options": ["Vitamin A", "Vitamin C", "Vitamin K", "Vitamin E"],
+    "CorrectIndex": 2,
+    "Explanation": "Vitamin K tham gia vào quá trình tổng hợp các yếu tố đông máu tại gan."
+  },
+  {
+    "Id": 95,
+    "Level": 5,
+    "Category": "Điện ảnh",
+    "Content": "Giải thưởng danh giá nhất của Viện Hàn lâm Khoa học và Nghệ thuật Điện ảnh Mỹ thường được gọi là gì?",
+    "Options": ["Grammy", "Emmy", "Tony", "Oscar"],
+    "CorrectIndex": 3,
+    "Explanation": "Oscar (Academy Awards) là giải thưởng điện ảnh danh giá nhất tại Mỹ và thế giới."
+  },
+  {
+    "Id": 96,
+    "Level": 6,
+    "Category": "Lịch sử Việt Nam",
+    "Content": "Tên thật của Chủ tịch Hồ Chí Minh lúc Người ra đi tìm đường cứu nước (năm 1911) là gì?",
+    "Options": ["Nguyễn Ái Quốc", "Nguyễn Sinh Cung", "Nguyễn Tất Thành", "Hồ Chí Minh"],
+    "CorrectIndex": 2,
+    "Explanation": "Ngày 5/6/1911, người thanh niên Nguyễn Tất Thành lên tàu Amiral Latouche-Tréville ra đi tìm đường cứu nước dưới tên Văn Ba."
+  },
+  {
+    "Id": 97,
+    "Level": 6,
+    "Category": "Địa lý thế giới",
+    "Content": "Con sông nổi tiếng nào chảy ngang qua thủ đô London của Vương quốc Anh?",
+    "Options": ["Sông Seine", "Sông Thames", "Sông Rhine", "Sông Danube"],
+    "CorrectIndex": 1,
+    "Explanation": "Sông Thames là dòng sông biểu tượng của thủ đô London."
+  },
+  {
+    "Id": 98,
+    "Level": 6,
+    "Category": "Nhạc cụ truyền thống",
+    "Content": "Đàn bầu (Độc huyền cầm) - một loại nhạc cụ truyền thống của Việt Nam, có tổng cộng bao nhiêu dây?",
+    "Options": ["1 dây", "2 dây", "3 dây", "4 dây"],
+    "CorrectIndex": 0,
+    "Explanation": "Đàn bầu (độc huyền cầm) chỉ có duy nhất một dây đàn nhưng phát ra âm thanh vô cùng réo rắt."
+  },
+  {
+    "Id": 99,
+    "Level": 6,
+    "Category": "Lịch sử quân sự",
+    "Content": "Cuộc chiến đấu bảo vệ Thành cổ Quảng Trị (Việt Nam) trong chiến dịch xuân hè 1972 kéo dài bao nhiêu ngày đêm?",
+    "Options": ["60 ngày đêm", "81 ngày đêm", "120 ngày đêm", "300 ngày đêm"],
+    "CorrectIndex": 1,
+    "Explanation": "Trận Thành cổ Quảng Trị là biểu tượng của tinh thần bất khuất, kéo dài 81 ngày đêm khói lửa năm 1972."
+  },
+  {
+    "Id": 100,
+    "Level": 6,
+    "Category": "Hóa học",
+    "Content": "Chất khí nào sinh ra trong quá trình hô hấp của con người và có khả năng làm đục nước vôi trong?",
+    "Options": ["Khí Oxy", "Khí Metan", "Khí Hydro", "Khí Carbon dioxide (CO2)"],
+    "CorrectIndex": 3,
+    "Explanation": "Khí CO2 khi phản ứng với nước vôi trong (Ca(OH)2) sẽ tạo ra kết tủa trắng (CaCO3) làm đục nước."
+  },
+  {
+    "Id": 101,
+    "Level": 6,
+    "Category": "Văn học thế giới",
+    "Content": "Tác phẩm tiểu thuyết kinh điển 'Ông già và biển cả' là của nhà văn người Mỹ nào?",
+    "Options": ["Mark Twain", "Ernest Hemingway", "Jack London", "F. Scott Fitzgerald"],
+    "CorrectIndex": 1,
+    "Explanation": "Tiểu thuyết 'Ông già và biển cả' (The Old Man and the Sea) xuất bản năm 1952, mang lại giải Nobel Văn học cho Hemingway."
+  },
+  {
+    "Id": 102,
+    "Level": 6,
+    "Category": "Thực vật học",
+    "Content": "Loài hoa nào thường được xem là quốc hoa, biểu tượng cho vẻ đẹp và tinh thần của đất nước Nhật Bản?",
+    "Options": ["Hoa Hồng", "Hoa Tulip", "Hoa Anh Đào (Sakura)", "Hoa Cúc"],
+    "CorrectIndex": 2,
+    "Explanation": "Hoa Anh Đào (Sakura) nở rộ vào mùa xuân, tượng trưng cho sự mong manh, vẻ đẹp và cái chết nhẹ nhàng trong văn hóa Nhật."
+  },
+  {
+    "Id": 103,
+    "Level": 7,
+    "Category": "Lịch sử Việt Nam",
+    "Content": "Vị hoàng đế nào đã ban 'Chiếu dời đô', quyết định dời thủ đô từ Hoa Lư về thành Đại La (Thăng Long) vào năm 1010?",
+    "Options": ["Lý Công Uẩn (Lý Thái Tổ)", "Lê Hoàn (Lê Đại Hành)", "Trần Cảnh (Trần Thái Tông)", "Nguyễn Huệ (Quang Trung)"],
+    "CorrectIndex": 0,
+    "Explanation": "Năm 1010, Lý Thái Tổ ban Chiếu dời đô về thành Đại La và đổi tên thành Thăng Long."
+  },
+  {
+    "Id": 104,
+    "Level": 7,
+    "Category": "Vật lý",
+    "Content": "Nhà vật lý vĩ đại nào đã công bố Thuyết tương đối (hẹp và rộng), thay đổi hoàn toàn nền vật lý hiện đại?",
+    "Options": ["Isaac Newton", "Niels Bohr", "Albert Einstein", "Stephen Hawking"],
+    "CorrectIndex": 2,
+    "Explanation": "Albert Einstein phát triển Thuyết tương đối với phương trình nổi tiếng E=mc²."
+  },
+  {
+    "Id": 105,
+    "Level": 7,
+    "Category": "Lịch sử thế giới",
+    "Content": "Bức tường Berlin, biểu tượng của Chiến tranh Lạnh chia cắt nước Đức, đã sụp đổ vào năm nào?",
+    "Options": ["1985", "1989", "1991", "1995"],
+    "CorrectIndex": 1,
+    "Explanation": "Vào tối ngày 9 tháng 11 năm 1989, người dân Đông Đức đã đổ xô qua biên giới, đánh dấu sự sụp đổ của Bức tường Berlin."
+  },
+  {
+    "Id": 106,
+    "Level": 7,
+    "Category": "Toán học & Tin học",
+    "Content": "Hệ đếm nhị phân (Binary) thường được dùng trong máy tính dựa trên bao nhiêu chữ số cơ bản?",
+    "Options": ["2 (số 0 và 1)", "8 (từ 0 đến 7)", "10 (từ 0 đến 9)", "16 (từ 0 đến 15)"],
+    "CorrectIndex": 0,
+    "Explanation": "Hệ nhị phân chỉ sử dụng hai chữ số là 0 và 1, biểu thị các trạng thái tắt/mở của tín hiệu điện."
+  },
+  {
+    "Id": 107,
+    "Level": 7,
+    "Category": "Địa lý Việt Nam",
+    "Content": "Đèo Hải Vân, mệnh danh là 'Thiên hạ đệ nhất hùng quan', là ranh giới tự nhiên giữa hai tỉnh/thành phố nào?",
+    "Options": ["Nghệ An - Hà Tĩnh", "Quảng Bình - Quảng Trị", "Thừa Thiên Huế - Đà Nẵng", "Đà Nẵng - Quảng Nam"],
+    "CorrectIndex": 2,
+    "Explanation": "Đèo Hải Vân cắt ngang dãy Bạch Mã, nối liền tỉnh Thừa Thiên Huế ở phía Bắc và TP Đà Nẵng ở phía Nam."
+  },
+  {
+    "Id": 108,
+    "Level": 7,
+    "Category": "Điện ảnh",
+    "Content": "Ai là đạo diễn của bộ phim 'Avatar' (2009) - một trong những bộ phim có doanh thu cao nhất mọi thời đại?",
+    "Options": ["Steven Spielberg", "Christopher Nolan", "James Cameron", "Quentin Tarantino"],
+    "CorrectIndex": 2,
+    "Explanation": "James Cameron đạo diễn Avatar (2009), sử dụng công nghệ 3D đột phá trong điện ảnh."
+  },
+  {
+    "Id": 109,
+    "Level": 7,
+    "Category": "Xã hội",
+    "Content": "Tổ chức Y tế Thế giới, cơ quan chuyên trách về sức khỏe cộng đồng của Liên Hợp Quốc, có tên viết tắt tiếng Anh là gì?",
+    "Options": ["WTO", "WHO", "UNICEF", "FAO"],
+    "CorrectIndex": 1,
+    "Explanation": "WHO là viết tắt của World Health Organization (Tổ chức Y tế Thế giới)."
+  },
+  {
+    "Id": 110,
+    "Level": 8,
+    "Category": "Địa lý thế giới",
+    "Content": "Đại dương nào có diện tích nhỏ nhất và nông nhất trong năm đại dương của Trái Đất?",
+    "Options": ["Nam Đại Dương", "Bắc Băng Dương", "Đại Tây Dương", "Ấn Độ Dương"],
+    "CorrectIndex": 1,
+    "Explanation": "Bắc Băng Dương (Arctic Ocean) là đại dương nhỏ nhất thế giới, bao quanh Bắc Cực."
+  },
+  {
+    "Id": 111,
+    "Level": 8,
+    "Category": "Địa lý thế giới",
+    "Content": "Thành phố nào từng là kinh đô của Nhật Bản trong hơn 1.000 năm trước khi thủ đô được chuyển về Tokyo (Edo)?",
+    "Options": ["Osaka", "Hiroshima", "Kyoto", "Nagasaki"],
+    "CorrectIndex": 2,
+    "Explanation": "Kyoto là kinh đô của Nhật Bản từ năm 794 đến 1868, mang đậm dấu ấn văn hóa truyền thống."
+  },
+  {
+    "Id": 112,
+    "Level": 8,
+    "Category": "Địa lý thế giới",
+    "Content": "Quốc gia nào đã vượt qua Trung Quốc để trở thành nước đông dân nhất thế giới vào năm 2023 (theo công bố của Liên Hợp Quốc)?",
+    "Options": ["Hoa Kỳ", "Indonesia", "Ấn Độ", "Pakistan"],
+    "CorrectIndex": 2,
+    "Explanation": "Giữa năm 2023, LHQ công bố Ấn Độ chính thức vượt Trung Quốc về mặt dân số."
+  },
+  {
+    "Id": 113,
+    "Level": 8,
+    "Category": "Văn học",
+    "Content": "Ai là tác giả của loạt tiểu thuyết kỳ ảo nổi tiếng toàn cầu 'Harry Potter'?",
+    "Options": ["J.R.R. Tolkien", "George R.R. Martin", "J.K. Rowling", "Stephen King"],
+    "CorrectIndex": 2,
+    "Explanation": "Nữ nhà văn người Anh J.K. Rowling là tác giả bộ truyện Harry Potter gồm 7 phần."
+  },
+  {
+    "Id": 114,
+    "Level": 8,
+    "Category": "Đại lý tự nhiên",
+    "Content": "Sông Amazon - con sông có lưu lượng nước lớn nhất thế giới, nằm ở châu lục nào?",
+    "Options": ["Châu Phi", "Nam Mỹ", "Bắc Mỹ", "Châu Âu"],
+    "CorrectIndex": 1,
+    "Explanation": "Sông Amazon chảy qua lãnh thổ của nhiều nước Nam Mỹ, đặc biệt là Brazil."
+  },
+  {
+    "Id": 115,
+    "Level": 8,
+    "Category": "Hóa học",
+    "Content": "Nguyên tố nào chiếm tỷ lệ khối lượng lớn nhất (khoảng 46,6%) trong thành phần vỏ Trái Đất?",
+    "Options": ["Sắt (Fe)", "Silic (Si)", "Nhôm (Al)", "Oxy (O)"],
+    "CorrectIndex": 3,
+    "Explanation": "Oxy chiếm khoảng 46.6% khối lượng vỏ Trái Đất, tồn tại dưới dạng các hợp chất oxit, silicat."
+  },
+  {
+    "Id": 116,
+    "Level": 8,
+    "Category": "Lịch sử quân sự",
+    "Content": "Vị Đại tướng đầu tiên của Quân đội nhân dân Việt Nam, người trực tiếp chỉ huy chiến dịch Điện Biên Phủ là ai?",
+    "Options": ["Nguyễn Chí Thanh", "Văn Tiến Dũng", "Võ Nguyên Giáp", "Chu Huy Mân"],
+    "CorrectIndex": 2,
+    "Explanation": "Đại tướng Võ Nguyên Giáp được thụ phong quân hàm Đại tướng năm 1948 khi mới 37 tuổi."
+  },
+  {
+    "Id": 117,
+    "Level": 9,
+    "Category": "Văn học thế giới",
+    "Content": "Tác phẩm 'Những người khốn khổ' (Les Misérables) là kiệt tác của đại văn hào người Pháp nào?",
+    "Options": ["Alexandre Dumas", "Victor Hugo", "Honoré de Balzac", "Molière"],
+    "CorrectIndex": 1,
+    "Explanation": "Victor Hugo xuất bản tiểu thuyết Những người khốn khổ vào năm 1862."
+  },
+  {
+    "Id": 118,
+    "Level": 9,
+    "Category": "Văn học thế giới",
+    "Content": "Cuốn tiểu thuyết 'Đôn Ki-hô-tê' kể về một nhà quý tộc hoang tưởng muốn làm hiệp sĩ là tác phẩm vĩ đại của nền văn học nước nào?",
+    "Options": ["Ý", "Anh", "Tây Ban Nha", "Pháp"],
+    "CorrectIndex": 2,
+    "Explanation": "Đôn Ki-hô-tê của Miguel de Cervantes là tiểu thuyết kinh điển của Tây Ban Nha."
+  },
+  {
+    "Id": 119,
+    "Level": 9,
+    "Category": "Sinh học",
+    "Content": "Phân tử ADN (DNA) mang thông tin di truyền của sinh vật có cấu trúc không gian dạng gì?",
+    "Options": ["Mạch đơn thẳng", "Xoắn kép (chuỗi xoắn kép)", "Hình vòng tròn đơn", "Hình tam giác"],
+    "CorrectIndex": 1,
+    "Explanation": "Mô hình xoắn kép của ADN được James Watson và Francis Crick khám phá năm 1953."
+  },
+  {
+    "Id": 120,
+    "Level": 9,
+    "Category": "Lịch sử thế giới",
+    "Content": "Cuộc tấn công bất ngờ vào Trân Châu Cảng năm 1941 đã kéo quốc gia nào chính thức tham gia vào Chiến tranh Thế giới thứ hai?",
+    "Options": ["Liên Xô", "Anh", "Pháp", "Hoa Kỳ"],
+    "CorrectIndex": 3,
+    "Explanation": "Sau sự kiện Nhật Bản tấn công Trân Châu Cảng (Hawaii), Mỹ đã chính thức tuyên chiến."
+  },
+  {
+    "Id": 121,
+    "Level": 9,
+    "Category": "Địa lý thế giới",
+    "Content": "Quốc gia Đông Nam Á nào có hình dáng đảo quốc và được mệnh danh là 'Quốc đảo Sư tử'?",
+    "Options": ["Malaysia", "Indonesia", "Singapore", "Brunei"],
+    "CorrectIndex": 2,
+    "Explanation": "Tên gọi Singapore xuất phát từ tiếng Sanskrit (Singapura), có nghĩa là Thành phố Sư tử."
+  },
+  {
+    "Id": 122,
+    "Level": 9,
+    "Category": "Văn học Việt Nam",
+    "Content": "Tên gọi 'Đoạn trường tân thanh' là nhan đề gốc của tác phẩm văn học nổi tiếng nào ở Việt Nam?",
+    "Options": ["Cung oán ngâm khúc", "Truyện Kiều", "Lục Vân Tiên", "Chinh phụ ngâm"],
+    "CorrectIndex": 1,
+    "Explanation": "'Đoạn trường tân thanh' (Tiếng kêu mới đứt ruột) là nhan đề do Nguyễn Du đặt, dân gian thường gọi là Truyện Kiều."
+  },
+  {
+    "Id": 123,
+    "Level": 9,
+    "Category": "Hóa học",
+    "Content": "Khí sinh học (Biogas) tạo ra từ quá trình phân hủy rác hữu cơ, có thành phần chính (dễ cháy) là khí nào?",
+    "Options": ["Oxy", "Metan (CH4)", "Amoniac", "Ozone"],
+    "CorrectIndex": 1,
+    "Explanation": "Khí Metan chiếm khoảng 50-70% trong Biogas, là nguồn nhiên liệu đốt quan trọng."
+  },
+  {
+    "Id": 124,
+    "Level": 10,
+    "Category": "Tôn giáo",
+    "Content": "Tính đến thế kỷ 21, tôn giáo nào có số lượng tín đồ đông nhất trên phạm vi toàn thế giới?",
+    "Options": ["Hồi giáo", "Phật giáo", "Kitô giáo (Cơ đốc giáo)", "Ấn Độ giáo"],
+    "CorrectIndex": 2,
+    "Explanation": "Kitô giáo (bao gồm Công giáo La Mã, Tin Lành, Chính Thống giáo...) có hơn 2.3 tỷ tín đồ trên toàn cầu."
+  },
+  {
+    "Id": 125,
+    "Level": 10,
+    "Category": "Hàng không vũ trụ",
+    "Content": "Người phụ nữ đầu tiên trong lịch sử nhân loại bay vào vũ trụ (năm 1963) là ai?",
+    "Options": ["Sally Ride", "Valentina Tereshkova", "Mae Jemison", "Peggy Whitson"],
+    "CorrectIndex": 1,
+    "Explanation": "Valentina Tereshkova, phi hành gia người Liên Xô, bay trên tàu Vostok 6 vào ngày 16/6/1963."
+  },
+  {
+    "Id": 126,
+    "Level": 10,
+    "Category": "Thể thao",
+    "Content": "Môn thể thao nào dùng gậy và bóng rất phổ biến, được coi như 'quốc võ' không chính thức của Ấn Độ và nhiều nước Khối thịnh vượng chung?",
+    "Options": ["Bóng chày", "Bóng bầu dục", "Cricket (Bóng gậy)", "Khúc côn cầu"],
+    "CorrectIndex": 2,
+    "Explanation": "Cricket có lượng người hâm mộ khổng lồ tại Ấn Độ, Pakistan, Úc và Anh."
+  },
+  {
+    "Id": 127,
+    "Level": 10,
+    "Category": "Hệ Mặt Trời",
+    "Content": "Ngọn núi lửa Olympus Mons - cao nhất trong Hệ Mặt Trời (cao gấp 3 lần Everest) nằm ở hành tinh nào?",
+    "Options": ["Sao Kim", "Sao Hỏa", "Sao Mộc", "Mặt Trăng"],
+    "CorrectIndex": 1,
+    "Explanation": "Olympus Mons là một núi lửa hình khiên khổng lồ trên bề mặt Sao Hỏa."
+  },
+  {
+    "Id": 128,
+    "Level": 10,
+    "Category": "Sinh học cơ thể",
+    "Content": "Protein nào trong hồng cầu chịu trách nhiệm vận chuyển oxy từ phổi đến các mô và tạo ra màu đỏ của máu?",
+    "Options": ["Keratin", "Collagen", "Hemoglobin (Huyết sắc tố)", "Insulin"],
+    "CorrectIndex": 2,
+    "Explanation": "Hemoglobin là một protein chứa sắt, có khả năng liên kết với phân tử oxy."
+  },
+  {
+    "Id": 129,
+    "Level": 10,
+    "Category": "Khoa học",
+    "Content": "Giải thưởng Fields - giải thưởng quốc tế danh giá 4 năm trao một lần - dành cho lĩnh vực nào?",
+    "Options": ["Toán học", "Hóa học", "Vật lý", "Sinh học"],
+    "CorrectIndex": 0,
+    "Explanation": "Giải thưởng Fields được ví như 'Giải Nobel của Toán học'."
+  },
+  {
+    "Id": 130,
+    "Level": 10,
+    "Category": "Lịch sử Việt Nam",
+    "Content": "Triều đại phong kiến nào có thời gian tồn tại ngắn nhất trong lịch sử Việt Nam (chỉ 7 năm)?",
+    "Options": ["Nhà Tiền Lê", "Nhà Đinh", "Nhà Hồ", "Nhà Mạc"],
+    "CorrectIndex": 2,
+    "Explanation": "Nhà Hồ do Hồ Quý Ly lập nên, tồn tại từ năm 1400 đến năm 1407 thì bị nhà Minh tiêu diệt."
+  },
+  {
+    "Id": 131,
+    "Level": 11,
+    "Category": "Công nghệ",
+    "Content": "Thuật ngữ 'Phablet' trong ngành công nghiệp di động là từ ghép của hai từ tiếng Anh nào?",
+    "Options": ["Phone và Tablet", "Photo và Tablet", "Phone và Laptop", "Personal và Tablet"],
+    "CorrectIndex": 0,
+    "Explanation": "Phablet chỉ những chiếc điện thoại thông minh (Phone) có màn hình rất lớn, gần bằng máy tính bảng (Tablet)."
+  },
+  {
+    "Id": 132,
+    "Level": 11,
+    "Category": "Di sản thế giới",
+    "Content": "Công trình khảo cổ nào ở Trung Quốc thường được truyền thông phương Tây gọi là 'Kỳ quan thứ 8 của thế giới'?",
+    "Options": ["Vạn Lý Trường Thành", "Tử Cấm Thành", "Đội quân đất nung (Binh mã dũng)", "Di Hòa Viên"],
+    "CorrectIndex": 2,
+    "Explanation": "Đội quân đất nung bảo vệ lăng mộ Tần Thủy Hoàng được phát hiện năm 1974, vô cùng đồ sộ và tinh xảo."
+  },
+  {
+    "Id": 133,
+    "Level": 11,
+    "Category": "Hóa học",
+    "Content": "Khí trơ nào nhẹ thứ hai sau Hydro nhưng an toàn hơn nhiều vì không bắt lửa, thường dùng bơm khinh khí cầu và bóng bay?",
+    "Options": ["Neon", "Argon", "Heli (Helium)", "Radon"],
+    "CorrectIndex": 2,
+    "Explanation": "Heli nhẹ hơn không khí và là khí trơ, không cháy nổ như Hydro."
+  },
+  {
+    "Id": 134,
+    "Level": 11,
+    "Category": "Y học",
+    "Content": "Bệnh Scorbut (Scurvy) - căn bệnh từng cướp đi sinh mạng của nhiều thủy thủ thời xưa, nguyên nhân là do cơ thể thiếu trầm trọng loại vitamin nào?",
+    "Options": ["Vitamin A", "Vitamin B12", "Vitamin C", "Vitamin D"],
+    "CorrectIndex": 2,
+    "Explanation": "Việc thiếu Vitamin C kéo dài dẫn đến suy yếu tổng hợp collagen, gây chảy máu nướu răng và suy kiệt (bệnh Scorbut)."
+  },
+  {
+    "Id": 135,
+    "Level": 11,
+    "Category": "Lịch sử thế giới",
+    "Content": "Đại hiến chương Magna Carta - nền tảng của luật pháp hiến pháp hiện đại, được Vua John ký ban hành năm 1215 tại quốc gia nào?",
+    "Options": ["Pháp", "Đức", "Anh", "Tây Ban Nha"],
+    "CorrectIndex": 2,
+    "Explanation": "Magna Carta được ký tại Runnymede (Anh), giới hạn quyền lực tuyệt đối của nhà vua."
+  },
+  {
+    "Id": 136,
+    "Level": 11,
+    "Category": "Lịch sử cận đại",
+    "Content": "Làn sóng cách mạng và biểu tình chống chính phủ được gọi chung là 'Mùa xuân Ả Rập' (2010) bắt nguồn từ quốc gia nào?",
+    "Options": ["Ai Cập", "Syria", "Tunisia", "Libya"],
+    "CorrectIndex": 2,
+    "Explanation": "Mùa xuân Ả Rập nổ ra tại Tunisia sau sự kiện một thanh niên tự thiêu vào tháng 12/2010."
+  },
+  {
+    "Id": 137,
+    "Level": 12,
+    "Category": "Hội họa",
+    "Content": "Bức tranh nổi tiếng 'Sự ra đời của Thần Vệ Nữ' (The Birth of Venus) miêu tả nữ thần Aphrodite trồi lên từ vỏ sò là kiệt tác của họa sĩ nào?",
+    "Options": ["Sandro Botticelli", "Michelangelo", "Titian", "Raphael"],
+    "CorrectIndex": 0,
+    "Explanation": "Sandro Botticelli vẽ bức tranh này vào khoảng giữa thập niên 1480 thời Phục hưng."
+  },
+  {
+    "Id": 138,
+    "Level": 12,
+    "Category": "Vật lý & Hóa học",
+    "Content": "Chỉ số Octan (Octane rating) là đại lượng tiêu chuẩn dùng để đánh giá chất lượng (khả năng chống kích nổ) của loại nhiên liệu nào?",
+    "Options": ["Dầu Diesel", "Xăng", "Khí gas hóa lỏng (LPG)", "Dầu hỏa (Kerosene)"],
+    "CorrectIndex": 1,
+    "Explanation": "Chỉ số Octan (ví dụ Xăng 92, 95) thể hiện khả năng chống kích nổ của xăng trong động cơ đốt trong."
+  },
+  {
+    "Id": 139,
+    "Level": 12,
+    "Category": "Toán học",
+    "Content": "Nhà toán học người Anh nào đã chứng minh thành công 'Định lý lớn Fermat' vào năm 1994, khép lại bài toán hơn 350 năm chưa có lời giải?",
+    "Options": ["Grigori Perelman", "Alan Turing", "Andrew Wiles", "Terence Tao"],
+    "CorrectIndex": 2,
+    "Explanation": "Giáo sư Andrew Wiles đã mất hơn 7 năm làm việc bí mật để chứng minh định lý huyền thoại này."
+  },
+  {
+    "Id": 140,
+    "Level": 12,
+    "Category": "Sinh học biển",
+    "Content": "Loài sinh vật nào dưới đây có khả năng đảo ngược vòng đời trở về giai đoạn polyp sau khi đã trưởng thành, được mệnh danh là 'bất tử về mặt sinh học'?",
+    "Options": ["Tôm hùm", "Bọt biển", "Sứa Turritopsis dohrnii", "Rùa biển"],
+    "CorrectIndex": 2,
+    "Explanation": "Loài sứa này có cơ chế chuyển biệt hóa tế bào, cho phép chúng trẻ hóa vô hạn nếu không bị bệnh tật hay ăn thịt."
+  },
+  {
+    "Id": 141,
+    "Level": 12,
+    "Category": "Lịch sử cổ đại",
+    "Content": "Nền văn minh Sumer cổ đại - một trong những nền văn minh lâu đời nhất của nhân loại, nằm ở lưu vực của hệ thống sông nào?",
+    "Options": ["Sông Hằng và Brahmaputra", "Sông Nile", "Sông Tigris và Euphrates", "Sông Hoàng Hà"],
+    "CorrectIndex": 2,
+    "Explanation": "Văn minh Sumer phát triển mạnh mẽ ở vùng Lưỡng Hà (Mesopotamia) giữa lưu vực sông Tigris và Euphrates."
+  },
+  {
+    "Id": 142,
+    "Level": 12,
+    "Category": "Giải Nobel",
+    "Content": "Các giải thưởng Nobel Y học, Hóa học, Vật lý và Văn học được trao tại Thụy Điển, vậy giải Nobel Hòa bình được trao tại thành phố của quốc gia nào?",
+    "Options": ["Stockholm (Thụy Điển)", "Oslo (Na Uy)", "Geneva (Thụy Sĩ)", "Helsinki (Phần Lan)"],
+    "CorrectIndex": 1,
+    "Explanation": "Theo di chúc của Alfred Nobel, giải Nobel Hòa bình do Ủy ban Nobel Na Uy xét duyệt và trao tại Oslo."
+  },
+  {
+    "Id": 143,
+    "Level": 13,
+    "Category": "Lịch sử sách",
+    "Content": "Cuốn sách đầu tiên trên thế giới được in bằng công nghệ chữ rời kim loại (còn tồn tại đến nay) là cuốn Jikji, xuất xứ từ quốc gia nào?",
+    "Options": ["Trung Quốc", "Đức", "Hàn Quốc", "Nhật Bản"],
+    "CorrectIndex": 2,
+    "Explanation": "Cuốn Jikji của Hàn Quốc được in năm 1377, ra đời trước Kinh Thánh Gutenberg của Đức hơn 70 năm."
+  },
+  {
+    "Id": 144,
+    "Level": 13,
+    "Category": "Vật lý hạt",
+    "Content": "Trong Mô hình Chuẩn của vật lý hạt, loại hạt nào làm nhiệm vụ truyền tương tác lực hạt nhân mạnh giữa các quark?",
+    "Options": ["Photon", "Gluon", "Boson W", "Graviton"],
+    "CorrectIndex": 1,
+    "Explanation": "Gluon (từ chữ 'glue' - keo dán) là hạt trung gian truyền lực hạt nhân mạnh, 'gắn kết' các quark thành proton và neutron."
+  },
+  {
+    "Id": 145,
+    "Level": 13,
+    "Category": "Công nghệ thông tin",
+    "Content": "Nhà khoa học máy tính nào là người đã phát minh ra World Wide Web (WWW) vào năm 1989 tại CERN?",
+    "Options": ["Bill Gates", "Steve Jobs", "Tim Berners-Lee", "Vint Cerf"],
+    "CorrectIndex": 2,
+    "Explanation": "Sir Tim Berners-Lee sáng tạo ra WWW nhằm mục đích chia sẻ thông tin giữa các nhà khoa học trên thế giới."
+  },
+  {
+    "Id": 146,
+    "Level": 13,
+    "Category": "Lịch sử quân sự",
+    "Content": "Trận hải chiến Lepanto năm 1571 là cuộc đụng độ quy mô lớn cuối cùng sử dụng loại tàu chiến nào?",
+    "Options": ["Tàu ngầm", "Tàu chiến chạy bằng hơi nước", "Thuyền mái chèo (Galley)", "Tàu sân bay"],
+    "CorrectIndex": 2,
+    "Explanation": "Trận Lepanto là trận hải chiến lớn nhất và cuối cùng ở phương Tây chủ yếu sử dụng thuyền chiến chèo tay (Galley)."
+  },
+  {
+    "Id": 147,
+    "Level": 13,
+    "Category": "Khoa học máy tính",
+    "Content": "Ngôn ngữ lập trình C - một trong những ngôn ngữ ảnh hưởng nhất mọi thời đại, được phát triển vào đầu thập niên 1970 bởi ai?",
+    "Options": ["Linus Torvalds", "Dennis Ritchie", "James Gosling", "Guido van Rossum"],
+    "CorrectIndex": 1,
+    "Explanation": "Dennis Ritchie đã phát triển ngôn ngữ C tại phòng thí nghiệm Bell (Bell Labs) để viết hệ điều hành Unix."
+  },
+  {
+    "Id": 148,
+    "Level": 13,
+    "Category": "Kinh tế quốc tế",
+    "Content": "Hội nghị Bretton Woods năm 1944 đã thiết lập trật tự tài chính thế giới mới, dẫn đến sự ra đời của tổ chức nào?",
+    "Options": ["Liên Hợp Quốc (UN)", "Tổ chức Thương mại Thế giới (WTO)", "Quỹ Tiền tệ Quốc tế (IMF) và Ngân hàng Thế giới", "Liên minh Châu Âu (EU)"],
+    "CorrectIndex": 2,
+    "Explanation": "Hiệp định Bretton Woods đã thành lập Quỹ Tiền tệ Quốc tế (IMF) và Ngân hàng Tái thiết và Phát triển Quốc tế (nay thuộc World Bank)."
+  },
+  {
+    "Id": 149,
+    "Level": 14,
+    "Category": "Kiến trúc cổ đại",
+    "Content": "Kim tự tháp El Castillo (đền Kukulcan) tại khu di tích Chichen Itza ở Mexico có tổng cộng bao nhiêu bậc thang (tính cả thềm trên cùng) tượng trưng cho số ngày trong năm?",
+    "Options": ["360", "364", "365", "366"],
+    "CorrectIndex": 2,
+    "Explanation": "Kim tự tháp có 4 mặt, mỗi mặt 91 bậc, cộng với mặt bằng đền thờ ở đỉnh tạo thành đúng 365 bậc."
+  },
+  {
+    "Id": 150,
+    "Level": 14,
+    "Category": "Y học sinh lý",
+    "Content": "Hệ thần kinh ruột (ENS) với hàng trăm triệu tế bào thần kinh kiểm soát chức năng tiêu hóa của con người thường được giới khoa học gọi là gì?",
+    "Options": ["Trái tim thứ hai", "Lá gan thứ hai", "Bộ não thứ hai", "Hệ miễn dịch dự phòng"],
+    "CorrectIndex": 2,
+    "Explanation": "ENS hoạt động phức tạp, độc lập với hệ thần kinh trung ương và sản xuất nhiều chất dẫn truyền thần kinh (như serotonin), nên được gọi là bộ não thứ hai."
+  },
+  {
+    "Id": 151,
+    "Level": 14,
+    "Category": "Lịch sử nghệ thuật",
+    "Content": "Phong trào nghệ thuật Ấn tượng (Impressionism) lấy tên từ bức tranh 'Ấn tượng, Mặt trời mọc' của họa sĩ Pháp nào?",
+    "Options": ["Claude Monet", "Edgar Degas", "Pierre-Auguste Renoir", "Édouard Manet"],
+    "CorrectIndex": 0,
+    "Explanation": "Bức tranh 'Impression, soleil levant' (1872) của Claude Monet đã khai sinh ra tên gọi của trường phái nghệ thuật này."
+  },
+  {
+    "Id": 152,
+    "Level": 14,
+    "Category": "Thiên văn học",
+    "Content": "Bức xạ phông vi sóng vũ trụ (CMB) - tàn dư rực sáng của Vụ Nổ Lớn (Big Bang) được hai nhà khoa học Penzias và Wilson vô tình phát hiện vào năm nào?",
+    "Options": ["1955", "1964", "1977", "1989"],
+    "CorrectIndex": 1,
+    "Explanation": "Năm 1964, Arno Penzias và Robert Wilson đã tình cờ ghi lại được tín hiệu nhiễu vĩnh cửu này khi đang thử nghiệm ăng-ten, mang lại cho họ giải Nobel Vật lý 1978."
+  },
+  {
+    "Id": 153,
+    "Level": 14,
+    "Category": "Lịch sử Châu Âu",
+    "Content": "'Cuộc Chiến tranh Hoa Hồng' (1455-1487) là một loạt các cuộc nội chiến tranh giành vương quyền ở quốc gia nào?",
+    "Options": ["Đế quốc La Mã Thần thánh", "Anh", "Pháp", "Tây Ban Nha"],
+    "CorrectIndex": 1,
+    "Explanation": "Cuộc nội chiến khốc liệt giành ngai vàng nước Anh diễn ra giữa hai dòng họ quyền lực là Lancaster (hoa hồng đỏ) và York (hoa hồng trắng)."
+  },
+  {
+    "Id": 154,
+    "Level": 14,
+    "Category": "Địa lý - Khí hậu",
+    "Content": "Hiện tượng dòng hải lưu lạnh trồi lên ở vùng xích đạo Thái Bình Dương, gây ra thời tiết khô và lạnh bất thường được gọi là gì?",
+    "Options": ["El Niño", "La Niña", "Vòi rồng", "Mưa axit"],
+    "CorrectIndex": 1,
+    "Explanation": "La Niña là hiện tượng trái ngược với El Niño, khi nhiệt độ mặt biển khu vực xích đạo Thái Bình Dương lạnh đi bất thường."
+  },
+  {
+    "Id": 155,
+    "Level": 15,
+    "Category": "Vật lý lượng tử",
+    "Content": "Nghịch lý 'Con mèo của Schrödinger' là một thí nghiệm tưởng tượng dùng để minh họa khái niệm nào trong cơ học lượng tử?",
+    "Options": ["Sự vướng víu lượng tử (Quantum entanglement)", "Chồng chập lượng tử (Quantum superposition)", "Định lý bất toàn", "Hiệu ứng đường hầm"],
+    "CorrectIndex": 1,
+    "Explanation": "Erwin Schrödinger đưa ra thí nghiệm này để chỉ ra sự vô lý của diễn giải Copenhagen, khi một vật thể vi mô có thể ở hai trạng thái (sống/chết) cùng một lúc cho đến khi bị quan sát."
+  },
+  {
+    "Id": 156,
+    "Level": 15,
+    "Category": "Hóa học",
+    "Content": "Chất siêu axit mạnh nhất thế giới từng được tổng hợp (mạnh hơn axit sunfuric đậm đặc hàng tỷ lần) có tên là gì?",
+    "Options": ["Axit Fluoroantimonic", "Axit Triflic", "Axit Carborane", "Aqua Regia (Nước cường toan)"],
+    "CorrectIndex": 0,
+    "Explanation": "Axit Fluoroantimonic (H2FSbF6) có độ axit (H0) lên tới -31.3, là siêu axit mạnh nhất được biết đến, phải chứa trong bình Teflon đặc biệt."
+  },
+  {
+    "Id": 157,
+    "Level": 15,
+    "Category": "Y học",
+    "Content": "Dòng tế bào bất tử HeLa, đóng vai trò then chốt trong vô số đột phá y học thế kỷ 20, được lấy từ khối u cổ tử cung của bệnh nhân nào?",
+    "Options": ["Helen Lane", "Henrietta Lacks", "Helen Keller", "Herta Oberheuser"],
+    "CorrectIndex": 1,
+    "Explanation": "Tế bào được lấy vào năm 1951 từ Henrietta Lacks (một phụ nữ người Mỹ gốc Phi) mà không có sự đồng ý của bà, tế bào này sinh sản vô hạn trong môi trường nuôi cấy."
+  },
+  {
+    "Id": 158,
+    "Level": 15,
+    "Category": "Toán học",
+    "Content": "Tập hợp Mandelbrot - một trong những hình ảnh toán học nổi tiếng nhất với các hình mẫu vô tận, là ví dụ kinh điển của khái niệm hình học nào?",
+    "Options": ["Hình học Euclide", "Đa tạp topo", "Hình học Fractal (Phân dạng)", "Hình học không gian"],
+    "CorrectIndex": 2,
+    "Explanation": "Tập hợp Mandelbrot sinh ra từ một phương trình lặp đơn giản trong mặt phẳng phức, thể hiện cấu trúc fractal tự đồng dạng ở mọi mức độ phóng to."
+  },
+  {
+    "Id": 159,
+    "Level": 15,
+    "Category": "Văn hóa cổ đại",
+    "Content": "Ngôn ngữ nào đã được sử dụng trên 'Phiến đá Rosetta' giúp các học giả hiện đại giải mã được chữ tượng hình Ai Cập cổ đại?",
+    "Options": ["Tiếng La-tinh", "Tiếng Hy Lạp cổ đại", "Tiếng Aramaic", "Tiếng Phạn (Sanskrit)"],
+    "CorrectIndex": 1,
+    "Explanation": "Phiến đá Rosetta khắc cùng một nội dung bằng 3 loại chữ: Chữ tượng hình Ai Cập, chữ Demotic và chữ Hy Lạp cổ đại, nhờ đó Jean-François Champollion đã giải mã thành công."
+  },
+  {
+    "Id": 160,
+    "Level": 15,
+    "Category": "Lịch sử Sinh học",
+    "Content": "Cuốn sách 'Nguồn gốc các loài' (On the Origin of Species) - nền tảng của sinh học tiến hóa do Charles Darwin xuất bản lần đầu tiên vào năm nào?",
+    "Options": ["1835", "1859", "1871", "1901"],
+    "CorrectIndex": 1,
+    "Explanation": "Darwin xuất bản tác phẩm vĩ đại này vào ngày 24/11/1859, trình bày lý thuyết tiến hóa thông qua chọn lọc tự nhiên."
+  }
+]
