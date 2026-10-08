@@ -167,23 +167,23 @@
                                 <!-- Lifelines Row -->
                                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
                                     <Button x:Name="btnLifeline5050" Click="BtnLifeline5050_Click" Style="{StaticResource LifelineButtonStyle}" ToolTip="Trợ giúp 50:50" Margin="0,0,12,0">
-                                        <TextBlock Text="50:50" FontWeight="Black" FontSize="14" Foreground="{StaticResource GoldBrush}"/>
+                                        <TextBlock Text="50:50" FontWeight="Black" FontSize="15" Foreground="{StaticResource GoldBrush}"/>
                                     </Button>
 
                                     <Button x:Name="btnLifelinePhone" Click="BtnLifelinePhone_Click" Style="{StaticResource LifelineButtonStyle}" ToolTip="Gọi điện cho người thân" Margin="0,0,12,0">
-                                        <TextBlock Text="📞" FontSize="20"/>
+                                        <TextBlock Text="📞" FontSize="20"  Foreground="{StaticResource GoldBrush}"/>
                                     </Button>
 
                                     <Button x:Name="btnLifelineAudience" Click="BtnLifelineAudience_Click" Style="{StaticResource LifelineButtonStyle}" ToolTip="Hỏi ý kiến khán giả" Margin="0,0,12,0">
-                                        <TextBlock Text="👥" FontSize="20"/>
+                                        <TextBlock Text="👥" FontSize="20"  Foreground="{StaticResource GoldBrush}"/>
                                     </Button>
 
                                     <Button x:Name="btnLifelineExperts" Click="BtnLifelineExperts_Click" Style="{StaticResource LifelineButtonStyle}" ToolTip="Hỏi tổ tư vấn tại chỗ" Margin="0,0,12,0">
-                                        <TextBlock Text="👨‍🏫" FontSize="20"/>
+                                        <TextBlock Text="👨‍🏫" FontSize="20"  Foreground="{StaticResource GoldBrush}"/>
                                     </Button>
 
                                     <Button x:Name="btnLifelineSwitch" Click="BtnLifelineSwitch_Click" Style="{StaticResource LifelineButtonStyle}" ToolTip="Đổi câu hỏi khác">
-                                        <TextBlock Text="🔄" FontSize="20"/>
+                                        <TextBlock Text="🔄" FontSize="20" Foreground="{StaticResource GoldBrush}"/>
                                     </Button>
                                 </StackPanel>
 

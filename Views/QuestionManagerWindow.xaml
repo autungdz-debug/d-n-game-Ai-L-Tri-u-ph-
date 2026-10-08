@@ -32,9 +32,11 @@
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
 
-                <TextBox x:Name="txtSearch" Grid.Column="0" Margin="0,0,10,0" Padding="10,8" Background="#1E293B" Foreground="White" BorderBrush="#334155" FontSize="13" TextChanged="TxtSearch_TextChanged"/>
+                <TextBox x:Name="txtSearch" Grid.Column="0" Margin="0,0,10,0" Padding="10,8" Background="#1E293B" Foreground="White" BorderBrush="#334155"
+                         FontSize="13" TextChanged="TxtSearch_TextChanged"/>
 
-                <ComboBox x:Name="cbLevelFilter" Grid.Column="1" Margin="0,0,10,0" Padding="10,8" Background="#1E293B" Foreground="White" SelectionChanged="CbLevelFilter_SelectionChanged"/>
+                <ComboBox x:Name="cbLevelFilter" Grid.Column="1" Margin="0,0,10,0" Padding="10,8" Background="#1E293B"  BorderBrush="#334155" 
+                          SelectionChanged="CbLevelFilter_SelectionChanged"/>
 
                 <Button Grid.Column="2" Content="+ Thêm câu hỏi" Click="BtnAddQuestion_Click"
                         Style="{StaticResource ModernButtonStyle}" Background="{StaticResource GreenGradientBrush}" BorderBrush="#6EE7B7" Padding="14,8"/>
@@ -102,7 +104,7 @@
                         <TextBox x:Name="txtNewContent" Grid.Column="1" Padding="6" Background="#0F172A" Foreground="White" BorderBrush="#334155" Margin="0,0,16,0"/>
 
                         <TextBlock Text="Cấp độ (1-15):" Grid.Column="2" Foreground="White" VerticalAlignment="Center" Margin="0,0,8,0"/>
-                        <ComboBox x:Name="cbNewLevel" Grid.Column="3" Background="#0F172A" Foreground="White"/>
+                        <ComboBox x:Name="cbNewLevel" Grid.Column="3" Background="#0F172A"/>
                     </Grid>
 
                     <Grid Margin="0,0,0,8">
@@ -144,8 +146,8 @@
                         <TextBox x:Name="txtNewCategory" Grid.Column="3" Text="Tổng hợp" Padding="6" Background="#0F172A" Foreground="White" BorderBrush="#334155" Margin="0,0,16,0"/>
 
                         <StackPanel Grid.Column="4" Orientation="Horizontal">
-                            <Button Content="LƯU CÂU HỎI" Click="BtnSaveNewQuestion_Click" Style="{StaticResource PrimaryGoldButtonStyle}" Height="34" Width="120" Margin="0,0,8,0"/>
-                            <Button Content="HỦY" Click="BtnCancelAdd_Click" Style="{StaticResource ModernButtonStyle}" Background="#334155" BorderBrush="#475569" Height="34" Width="70"/>
+                            <Button Content="LƯU CÂU HỎI" Click="BtnSaveNewQuestion_Click" Style="{StaticResource PrimaryGoldButtonStyle}" Height="40" Width="125" Margin="0,0,8,0"/>
+                            <Button Content="HỦY" Click="BtnCancelAdd_Click" Style="{StaticResource ModernButtonStyle}" Background="#334155" BorderBrush="#475569" Height="40" Width="70"/>
                         </StackPanel>
                     </Grid>
                 </StackPanel>

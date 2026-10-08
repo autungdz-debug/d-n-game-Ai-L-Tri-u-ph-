@@ -40,6 +40,7 @@ Dự án game **"Ai Là Triệu Phú"** hoàn chỉnh được xây dựng bằn
 6. **Hệ thống âm thanh kịch tính tự động (SoundGenerator)**:
    - Tự động sinh và lưu trữ các hiệu ứng âm thanh chuẩn WAV (tiếng đếm ngược, tiếng chốt phương án, âm thanh đúng, âm thanh sai, nhạc chúc mừng mốc an toàn và chiến thắng).
    - Tích hợp nút bật/tắt âm thanh (Mute) ngay trên thanh tiêu đề.
+   - Chọn âm thanh đọc bởi MC
 
 7. **Bảng vàng kỷ lục gia (Hall of Fame / Leaderboard)**:
    - Lưu trữ và tự động xếp hạng Top 10 người chơi có tiền thưởng cao nhất vào tệp `highscores.json`.
@@ -91,7 +92,7 @@ AiLaTrieuPhu/
    - Khởi động **Visual Studio 2022**.
    - Chọn **Open a project or solution**.
    - Trỏ tới đường dẫn:
-     `C:\Users\Admin\source\repos\AiLaTrieuPhu\AiLaTrieuPhu.sln`
+     `"D:\BÁO CÁO_ GAME_AI_LÀ_TRIỆU_PHÚ\AiLaTrieuPhu"`
    - Hoặc nhấp đúp trực tiếp vào tệp `AiLaTrieuPhu.sln`.
 
 2. **Chạy trò chơi**:
@@ -100,5 +101,5 @@ AiLaTrieuPhu/
 
 3. **Chạy nhanh từ dòng lệnh (nếu không mở Visual Studio)**:
    ```bash
-   dotnet run --project C:\Users\Admin\source\repos\AiLaTrieuPhu\AiLaTrieuPhu\AiLaTrieuPhu.csproj
+   dotnet run --project D:\BÁO CÁO_ GAME_AI_LÀ_TRIỆU_PHÚ\AiLaTrieuPhu\AiLaTrieuPhu.csproj
    ```
