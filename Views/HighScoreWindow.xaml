@@ -1,7 +1,7 @@
 <Window x:Class="AiLaTrieuPhu.Views.HighScoreWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Bảng Vàng Kỷ Lục &amp; Thống Kê Triệu Phú" Height="680" Width="940"
+        Title="Bảng Vàng Kỷ Lục &amp; Thống Kê Triệu Phú" Height="680" Width="1000"
         WindowStartupLocation="CenterOwner" ResizeMode="NoResize"
         Background="Transparent"
         WindowStyle="None" AllowsTransparency="True"
@@ -95,7 +95,9 @@
             </Grid>
 
             <!-- 3. Navigation Tabs & Search/Filter Bar -->
-            <Border Grid.Row="2" Background="#0C1527" CornerRadius="10" BorderBrush="#1E293B" BorderThickness="1" Padding="8,6" Margin="0,0,0,10">
+            <Border Grid.Row="2" Background="#0C1527" CornerRadius="10"
+                    BorderBrush="#1E293B" BorderThickness="1"
+                    Padding="8,6" Margin="0,0,0,10">
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="Auto"/> <!-- View Mode Switcher -->
@@ -267,7 +269,7 @@
                             </DataGridTextColumn>
 
                             <!-- Achievement Badge -->
-                            <DataGridTextColumn Header="Danh hiệu" Binding="{Binding AchievementBadge}" Width="150">
+                            <DataGridTextColumn Header="Danh hiệu" Binding="{Binding AchievementBadge}" Width="200">
                                 <DataGridTextColumn.ElementStyle>
                                     <Style TargetType="TextBlock">
                                         <Setter Property="Foreground" Value="{StaticResource GoldLightBrush}"/>
@@ -348,7 +350,7 @@
                             </DataGridTextColumn>
 
                             <!-- Achievement Badge -->
-                            <DataGridTextColumn Header="Danh hiệu" Binding="{Binding AchievementBadge}" Width="140">
+                            <DataGridTextColumn Header="Danh hiệu" Binding="{Binding AchievementBadge}" Width="160">
                                 <DataGridTextColumn.ElementStyle>
                                     <Style TargetType="TextBlock">
                                         <Setter Property="Foreground" Value="{StaticResource GoldLightBrush}"/>
